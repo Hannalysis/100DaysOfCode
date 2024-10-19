@@ -27,9 +27,14 @@ It took me a while to realise I needed to make seperate containers for each item
 --- Day 3 ---  
  2024-10-19
 
- Today I wanted to divide my time; begin with a little css practice, and move onto continuing my coding journey to improve my logic and algorithm thinking!
+ Today I wanted to divide my time; begin with a little css practice, and move onto continuing my python coding journey to improve my logic and algorithm thinking!
 
  Started with another flex css-exercise from The Odin Project, _05-flex-modal_. I spent time planning the containers & row/column divides I would need for this to work. 
  This has been the first time since using CSS where I felt like I was inputting style with intent, rather than almost pure trial and error.
 
- 
+ Ended the day with a revisit to an old quiz terminal app I had created a couple of months ago (kudos to Angela Yu's python course on Udemy).
+ Until today, the questions were hard coded into a separate file saved locally. I am now using an API call request to the Open Trivia DB site to grab a random set of 10 boolean questions to print and answer inside the console.
+
+ However, there was a small issue present as the HTML escape entities were also being printed within the questions, so I needed to import the html module and utilise the unescape function so the characters are translated back to their original form.
+
+ ------------
