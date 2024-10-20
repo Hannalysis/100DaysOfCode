@@ -33,8 +33,26 @@ It took me a while to realise I needed to make seperate containers for each item
  This has been the first time since using CSS where I felt like I was inputting style with intent, rather than almost pure trial and error.
 
  Ended the day with a revisit to an old quiz terminal app I had created a couple of months ago (kudos to Angela Yu's python course on Udemy).
- Until today, the questions were hard coded into a separate file saved locally. I am now using an API call request to the Open Trivia DB site to grab a random set of 10 boolean questions to print and answer inside the console.
+ Until today, the questions were hard coded into a separate file saved locally. I am now using an API call request to the Open Trivia DB site to grab a random set of 10  
+ boolean questions to print and answer inside the console.
 
- However, there was a small issue present as the HTML escape entities were also being printed within the questions, so I needed to import the html module and utilise the unescape function so the characters are translated back to their original form.
+ However, there was a small issue present as the HTML escape entities were also being printed within the questions, so I needed to import the html module and utilise the 
+ unescape function so the characters are translated back to their original form.
 
  ------------
+
+--- Day 4 ---  
+ 2024-10-20
+
+ Much like yesterday, today I wanted to again divide my time between css and python.
+
+ From css-exercises I completed _06-flex-layout_, this one took a bit longer than previous exercises due to it being an entire page to layout. I encountered a little 
+ difficulty with the footer positioning until I realised 
+ that adding the rule _justify-content: space-between_ in the main container solved that issue.
+
+ I then added the GUI to the python Quiz App I was working on yesterday using python's tkinter. This code has been placed into a seperate file under it's own class to 
+ initialise the GUI for the app, and the class is imported back into the main file.
+
+ ------------
+
+ 
