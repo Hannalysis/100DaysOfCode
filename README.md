@@ -62,4 +62,4 @@ I got very caught up in trying to display the boxes of text so they aligned with
 I also had a little trouble getting the sidebar to actually take up the entire space on the left hand side (minus header and footer); I found the solution was creating a container for both the sidebar and the content on the right to align with it, and used 
 the flex-grow rule to push it and surround the main page, stopping at the footer.
 
- 
+ I rounded off the day with some python by inputting functionality into my Quiz App; managed to get the GUI to display the questions grabbed from the API call request. Tomorrow I am hoping to add the rest of the functionality.
