@@ -33,11 +33,9 @@ It took me a while to realise I needed to make seperate containers for each item
  This has been the first time since using CSS where I felt like I was inputting style with intent, rather than almost pure trial and error.
 
  Ended the day with a revisit to an old quiz terminal app I had created a couple of months ago (kudos to Angela Yu's python course on Udemy).
- Until today, the questions were hard coded into a separate file saved locally. I am now using an API call request to the Open Trivia DB site to grab a random set of 10  
- boolean questions to print and answer inside the console.
+ Until today, the questions were hard coded into a separate file saved locally. I am now using an API call request to the Open Trivia DB site to grab a random set of 10 boolean questions to print and answer inside the console.
 
- However, there was a small issue present as the HTML escape entities were also being printed within the questions, so I needed to import the html module and utilise the 
- unescape function so the characters are translated back to their original form.
+ However, there was a small issue present as the HTML escape entities were also being printed within the questions, so I needed to import the html module and utilise the unescape function so the characters are translated back to their original form.
 
  ------------
 
@@ -54,5 +52,14 @@ It took me a while to realise I needed to make seperate containers for each item
  initialise the GUI for the app, and the class is imported back into the main file.
 
  ------------
+
+ --- Day 5 ---  
+ 2024-10-21
+
+Today I completed the last exercise inside the flex folder of The Odin Project's css-exercises; _07-flex-layout-2_. I found it challenging and it took me a good while to bring the page to the desired solution's state.
+
+I got very caught up in trying to display the boxes of text so they aligned with the same gap down the centre of the main content's container. Once I had realised the individual text boxes all required a massive width extention, they all lined up perfectly.
+I also had a little trouble getting the sidebar to actually take up the entire space on the left hand side (minus header and footer); I found the solution was creating a container for both the sidebar and the content on the right to align with it, and used 
+the flex-grow rule to push it and surround the main page, stopping at the footer.
 
  
