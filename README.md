@@ -63,3 +63,19 @@ I also had a little trouble getting the sidebar to actually take up the entire s
 the flex-grow rule to push it and surround the main page, stopping at the footer.
 
  I rounded off the day with some python by inputting functionality into my Quiz App; managed to get the GUI to display the questions grabbed from the API call request. Tomorrow I am hoping to add the rest of the functionality.
+
+  --- Day 6 ---  
+ 2024-10-22
+
+ Today I wanted to fully focus on python to finish off the Quiz App using tkinter. 
+
+ I started with giving the user feedback inside the App when they got a question right (by showing green in the canvas), and red when they did not (by showing red). I also utilised the after() method from the window class to give enough time to show the user whether they were correct, before resetting the canvas to the original colour. I also needed to move my get_next_question function inside the after method argument, as it was no longer triggering once I had moved some of the functionality to the GUI. 
+
+ Next was getting the score counter to work inside the GUI. I nested the functions to check whether another question needed asking (still_has_questions()), and then to give a question (next_question) inside the get_next_question function.
+ This meant that if another question was going to be asked, then it's a good time to update the score counter, so I added a config to the label using an f string for the score number to update in.
+ 
+ On the other hand, if still_has_questions remaining was False, I added a line to config the canvas to inform the user with text to announce that the quiz is over. Followed by disabling the buttons on the GUI to make it clear that the quiz is finished.
+
+ ------------
+
+ 
