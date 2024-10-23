@@ -64,6 +64,8 @@ the flex-grow rule to push it and surround the main page, stopping at the footer
 
  I rounded off the day with some python by inputting functionality into my Quiz App; managed to get the GUI to display the questions grabbed from the API call request. Tomorrow I am hoping to add the rest of the functionality.
 
+  ------------
+
   --- Day 6 ---  
  2024-10-22
 
@@ -77,5 +79,10 @@ the flex-grow rule to push it and surround the main page, stopping at the footer
  On the other hand, if still_has_questions remaining was False, I added a line to config the canvas to inform the user with text to announce that the quiz is over. Followed by disabling the buttons on the GUI to make it clear that the quiz is finished.
 
  ------------
+
+   --- Day 7 ---  
+ 2024-10-23
+
+ I started the day with reading up on API calls to get a better overall understanding (with python). As there was little actual coding on my part, I decided to come back to my CSS learning via The Odin Project site curriculum; meaning, we're onto the CSS project!
 
  
