@@ -87,5 +87,12 @@ the flex-grow rule to push it and surround the main page, stopping at the footer
  I started the day with reading up on API calls to get a better overall understanding (with python). As there was little actual coding on my part, I decided to come back to my CSS learning via The Odin Project site curriculum; meaning, we're onto the CSS project!
 
  Which, means practicing the CSS will come later as I needed to create the index.html file first, from scratch. So,  I spent the rest of my time populating the content in HTML, including high-level containers and a few mock-up images I made quickly in MS paint. This part has been pushed to my newly made repository (odin-landing-page).
+
+  ------------
+
+   --- Day 8 ---  
+ 2024-10-24
  
- ------------
+Today I decided to continue the odin-landing-page CSS project, by focusing on the CSS. 
+
+I prioitised adding all the font rules, colours and backgrounds (while adding a couple of extra containers along the way), and pushing those changes, before heading into the flexing shenanigans.
