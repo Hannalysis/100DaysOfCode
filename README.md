@@ -96,3 +96,6 @@ the flex-grow rule to push it and surround the main page, stopping at the footer
 Today I decided to continue the odin-landing-page CSS project, by focusing on the CSS. 
 
 I prioitised adding all the font rules, colours and backgrounds (while adding a couple of extra containers along the way), and pushing those changes, before heading into the flexing shenanigans.
+
+I started with what I thought was the easiest part - sorting out the 4 images with text in the middle. I managed to get them aligned appropriately, but I do need to sort out the overlapping text. I moved onto the quote section and got that in a reasonable space as it was mostly text align and background padding.
+The call to action section, is causing me a little bit of formatting issues, however I've managed to centre it, place it 2 out of 3 elements inside a box with curved corners; and will continue tackling this section next time. 
