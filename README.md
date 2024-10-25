@@ -99,3 +99,21 @@ I prioitised adding all the font rules, colours and backgrounds (while adding a 
 
 I started with what I thought was the easiest part - sorting out the 4 images with text in the middle. I managed to get them aligned appropriately, but I do need to sort out the overlapping text. I moved onto the quote section and got that in a reasonable space as it was mostly text align and background padding.
 The call to action section, is causing me a little bit of formatting issues, however I've managed to centre it, place it 2 out of 3 elements inside a box with curved corners; and will continue tackling this section next time. 
+
+  ------------
+
+   --- Day 9 ---  
+ 2024-10-25
+
+Much like yesterday, today I wanted to continue working on the CSS project. 
+
+I started by adding more containers, to then flex the items to the best of my ability, and also made a fair amount of margin, padding and gap alterations as my page started to take a better shape. I then realised my entire page was looking extremely elongated (partly used to using a widescreen monitor) however, 
+I could negate this by adding pmargins to each of my main container blocks (by using padding on the left and right of each container), and made the content appear more portrait. 
+
+I managed to get the page in a good enough state to complete the exercise, and it's an active webpage on github here https://hannalysis.github.io/odin-landing-page/ 
+This by no means I'm done with it, as I expect once I have gotten more web dev experience I would like to come back and make the final tweaks to mimic the original image.
+
+One thing that stood out to me in particular, is how convoluted some of my naming conventions were for my containers. Ones which had a couple of containers in containers, were pretty self explanatory and thus easier to label but with my 'awesome' section got very messy quite quickly. I had to keep checking on 
+multiple occasions which container had what in it, and whether I had worded it correctly inside the stylesheet (as my labelling had become a little inconsistent). This is something I will pay more attention to in future projects going forward.
+
+  ------------
