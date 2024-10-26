@@ -133,3 +133,6 @@ Delete - _requests.delete()_ Delete data --> Response (mainly confirmation)
  
 Outside of this, I came across the  _strftime()_ method. This converts a date & time object into a readable format by passing in a string, which is an essential tool for future python projects, especially for any data analysis.
 
+I then finished my day by getting more familiar with Javascript, and completed the Rock-Paper-Scissors project from The Odin Project, under the [odin-rock-paper-scissors](https://github.com/Hannalysis/odin-rock-paper-scissors) repo
+
+  ------------
