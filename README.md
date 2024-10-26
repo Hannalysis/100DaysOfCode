@@ -108,7 +108,7 @@ The call to action section, is causing me a little bit of formatting issues, how
 Much like yesterday, today I wanted to continue working on the CSS project. 
 
 I started by adding more containers, to then flex the items to the best of my ability, and also made a fair amount of margin, padding and gap alterations as my page started to take a better shape. I then realised my entire page was looking extremely elongated (partly used to using a widescreen monitor) however, 
-I could negate this by adding pmargins to each of my main container blocks (by using padding on the left and right of each container), and made the content appear more portrait. 
+I could negate this by adding margins to each of my main container blocks (by using padding on the left and right of each container), and made the content appear more portrait. 
 
 I managed to get the page in a good enough state to complete the exercise, and it's an active webpage on github here https://hannalysis.github.io/odin-landing-page/ 
 This by no means I'm done with it, as I expect once I have gotten more web dev experience I would like to come back and make the final tweaks to mimic the original image.
@@ -117,3 +117,19 @@ One thing that stood out to me in particular, is how convoluted some of my namin
 multiple occasions which container had what in it, and whether I had worded it correctly inside the stylesheet (as my labelling had become a little inconsistent). This is something I will pay more attention to in future projects going forward.
 
   ------------
+  
+   --- Day 10 ---   
+ 2024-10-26
+
+ I wanted a well-earnt break from CSS, so I started today with reading and watching some python tutorials. My first takeaway was knowing and understanding the 4 different types of API calls/HTTP request types:
+
+Get - _requests.get()_ Ask --> Response
+
+Post - _requests.post()_ Send data --> Response (mainly confirmation)
+
+Put - _requests.put()_ Update data --> Response (mainly confirmation)
+
+Delete - _requests.delete()_ Delete data --> Response (mainly confirmation)
+ 
+Outside of this, I came across the  _strftime()_ method. This converts a date & time object into a readable format by passing in a string, which is an essential tool for future python projects, especially for any data analysis.
+
