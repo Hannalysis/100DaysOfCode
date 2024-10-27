@@ -54,7 +54,7 @@ It took me a while to realise I needed to make seperate containers for each item
  ------------
 
  --- Day 5 ---  
- 2024-10-21
+  2024-10-21
 
 Today I completed the last exercise inside the flex folder of The Odin Project's css-exercises; _07-flex-layout-2_. I found it challenging and it took me a good while to bring the page to the desired solution's state.
 
@@ -67,7 +67,7 @@ the flex-grow rule to push it and surround the main page, stopping at the footer
   ------------
 
   --- Day 6 ---  
- 2024-10-22
+   2024-10-22
 
  Today I wanted to fully focus on python to finish off the Quiz App using tkinter. 
 
@@ -81,8 +81,8 @@ the flex-grow rule to push it and surround the main page, stopping at the footer
 
  ------------
 
-   --- Day 7 ---  
- 2024-10-23
+ --- Day 7 ---  
+  2024-10-23
 
  I started the day with reading up on API calls to get a better overall understanding (with python). As there was little actual coding on my part, I decided to come back to my CSS learning via The Odin Project site curriculum; meaning, we're onto the CSS project!
 
@@ -90,8 +90,8 @@ the flex-grow rule to push it and surround the main page, stopping at the footer
 
   ------------
 
-   --- Day 8 ---  
- 2024-10-24
+ --- Day 8 ---  
+  2024-10-24
  
 Today I decided to continue the odin-landing-page CSS project, by focusing on the CSS. 
 
@@ -102,8 +102,8 @@ The call to action section, is causing me a little bit of formatting issues, how
 
   ------------
 
-   --- Day 9 ---  
- 2024-10-25
+ --- Day 9 ---  
+  2024-10-25
 
 Much like yesterday, today I wanted to continue working on the CSS project. 
 
@@ -118,8 +118,8 @@ multiple occasions which container had what in it, and whether I had worded it c
 
   ------------
   
-   --- Day 10 ---   
- 2024-10-26
+ --- Day 10 ---   
+  2024-10-26
 
  I wanted a well-earnt break from CSS, so I started today with reading and watching some python tutorials. My first takeaway was knowing and understanding the 4 different types of API calls/HTTP request types:
 
@@ -134,5 +134,18 @@ Delete - _requests.delete()_ Delete data --> Response (mainly confirmation)
 Outside of this, I came across the  _strftime()_ method. This converts a date & time object into a readable format by passing in a string, which is an essential tool for future python projects, especially for any data analysis.
 
 I then finished my day by getting more familiar with Javascript, and completed the Rock-Paper-Scissors project from The Odin Project, under the [odin-rock-paper-scissors](https://github.com/Hannalysis/odin-rock-paper-scissors) repo
+
+  ------------
+
+ --- Day 11 ---   
+  2024-10-27
+
+  Today I focused on my python course in Udemy. The section I'm now on is actually focused on web development so ended up being a useful test my knowledge day (and ironically, no python at all!).
+
+  The first project was a revisit (for me) to basic HTML (similar to the initial odin-recipes project). I did appreciate having a reason to add horizontal rule elements to this, as I had no yet found a reason to utilise one previously.
+  I was also made aware of the 'vscode-icons' extension, which has made locating files more visually pleasing.
+
+  The second section I covered lists, including nested lists, anchoring, and also attributes you can add into lists (ie the 'start' attribute, where you can start an ordered list from any number set). 
+  This was then practiced into the second HTML project, including images using web links as the source, as opposed to local ones.
 
   ------------
