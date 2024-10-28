@@ -149,3 +149,20 @@ I then finished my day by getting more familiar with Javascript, and completed t
   This was then practiced into the second HTML project, including images using web links as the source, as opposed to local ones.
 
   ------------
+
+ --- Day 12 ---   
+  2024-10-28
+
+  Alike yesterday, I continued with the web development section inside my python udemy course. Now we're moving onto CSS; a chance to revise, and learn something new.
+
+  I started with a basic website project that utilised styling with just ids, classes and element selectors. I did also learn of a new selector type, called attribute - using square brackets, can select everything with the same attribute type, specific setting or, targetting items without that attribute 
+  (ie p[draggable = "false"]).
+
+  Font size measurement reference:
+  Static sizing: 1px = 1/96 inch | 1pt = 1/72 inch  
+  Relative sizing: 1em = 100% parent | 1rem = 100% root
+
+  In the second project (creating a web meme), I utilised my first custom font utilising fonts.google.com, and establishing a reference in html, using the preconnect relationship attributes, with a url link to the font in question.
+  This was also the first time I've really seen the advantages of using percentages of widths and margins to make aligning content more straightforward, along with using relative font sizing.
+
+  ------------
