@@ -158,11 +158,24 @@ I then finished my day by getting more familiar with Javascript, and completed t
   I started with a basic website project that utilised styling with just ids, classes and element selectors. I did also learn of a new selector type, called attribute - using square brackets, can select everything with the same attribute type, specific setting or, targetting items without that attribute 
   (ie p[draggable = "false"]).
 
-  Font size measurement reference:
+  Font size measurement reference:  
   Static sizing: 1px = 1/96 inch | 1pt = 1/72 inch  
   Relative sizing: 1em = 100% parent | 1rem = 100% root
 
   In the second project (creating a web meme), I utilised my first custom font utilising fonts.google.com, and establishing a reference in html, using the preconnect relationship attributes, with a url link to the font in question.
   This was also the first time I've really seen the advantages of using percentages of widths and margins to make aligning content more straightforward, along with using relative font sizing.
+
+  ------------
+
+ --- Day 13 ---   
+  2024-10-29
+
+  Today I continued with my python course, and had my first look into web scraping. 
+
+  I started with an exercise scraping a local html file, with the module beautifulsoup4. I was able to understand how to scrape by using the find and select functions quoting the tags from the html in order to print that information into the console.
+
+  The second exercise, focused on using a live news website, where I was required to use code to first grab the first article, and its link, and upvote number. I had to do the same with the page of news, where gathered information was stored in separate lists, thanks to a for loop and a bit of list comprehension.
+
+  I then finished up with writing code for printinng out which article was the most popular. Utilising the max function and the index number from the upvote list I was then able to use that index in the article name list to print the relevant information.
 
   ------------
