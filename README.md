@@ -176,6 +176,17 @@ I then finished my day by getting more familiar with Javascript, and completed t
 
   The second exercise, focused on using a live news website, where I was required to use code to first grab the first article, and its link, and upvote number. I had to do the same with the page of news, where gathered information was stored in separate lists, thanks to a for loop and a bit of list comprehension.
 
-  I then finished up with writing code for printinng out which article was the most popular. Utilising the max function and the index number from the upvote list I was then able to use that index in the article name list to print the relevant information.
+  I then finished up with writing code for printing out which article was the most popular. Utilising the max function and the index number from the upvote list I was then able to use that index in the article name list to print the relevant information.
+
+  ------------
+
+ --- Day 14 ---   
+  2024-10-30
+
+  Today I continued looking into the web scraping tools in python, and completed my own project - scraping the top 100 games of all time from empireonline, and printing out the list into a text document.
+
+  Overall the project went pretty smoothly; it took me a little while to figure out the list comprehenion I needed to remove the html tags from the original printout inside the terminal, mind. 
+  Once I had the list printed out with strings only, it was a matter of using the _reverse()_ function (so the listed printed from 1 instead of 100), and then using the _write()_ function in a for loop to place the items into a list with a new line (/n) spacing.
+  I had to make a condtional as the write command has multiple modes; one for making a new txt file, and one for editing it, so I made it so the write iteration only passed through the once, and then took the main loop code after (by using i increments).
 
   ------------
