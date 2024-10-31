@@ -190,3 +190,15 @@ I then finished my day by getting more familiar with Javascript, and completed t
   I had to make a condtional as the write command has multiple modes; one for making a new txt file, and one for editing it, so I made it so the write iteration only passed through the once, and then took the main loop code after (by using i increments).
 
   ------------
+
+ --- Day 15 ---   
+  2024-10-31
+
+  Today ended up being quite eventful, so I decided to continue with a bit of web scraping practice - this time, scraping the top 100 songs from a certain week in history.
+
+  This particular site was a little was a little difficult to read, as the class names are extremely long (and also contain all font elements as part of the class name). I also had to do multiple separate scrapes, one for tha songs, and another for the artists...minus the no 1 song for that week.
+  That was due to the fact that the no 1 song and artist name had their own class name, and visual representation on the site different (likely to make them stand out more).
+
+  I then made two list comprehensions to clean the lists, then utilised the string _insert_ method to place the top artist and song as the first item in their respective lists. I hope to make the final touches of this project tomorrow.
+
+  ------------
