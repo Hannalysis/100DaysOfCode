@@ -202,3 +202,19 @@ I then finished my day by getting more familiar with Javascript, and completed t
   I then made two list comprehensions to clean the lists, then utilised the string _insert_ method to place the top artist and song as the first item in their respective lists. I hope to make the final touches of this project tomorrow.
 
   ------------
+
+ --- Day 16 ---   
+  2024-11-01
+
+  As mentioned in yesterday's entry, I decided to continue my python project scraping the top 100 songs from the billboard website.
+
+  To give my script more use cases, I added an input function to ask the user to add any date in the format YYYY/MM/DD (including the '/' characters). To get the date in a compatible format to fit as part of the website link, it needed to go through a bit of a conversion process.
+  
+  Firstly, I required that output to become a tuple - so I used the _map_ function, which encompassed an int conversion of the initial input variable (with a split to remove the '/'), all inside a tuple type conversion assigned to a new varaible.
+  Then I had to convert it into a new variable as a date object (with the _datetime_ module), and assigning the individiual elements of the tuple to it.
+  Finally, I was insert this new variable into my request string as an f string, replacing the part of the link where the date was being called.
+
+  As a finishing touch, I converted the song and artist lists into one dictionary using the _dict_ and _zip_ methods, and using similar code as I did in day 14, looped through each item of the dictionary into a text tile. The filename also included the date variable from the input method (using another f string), for clarity. 
+  A minor issue with using this loop for the dictionary is that the text file includes curly bracket characters around each key pairing. I'll put this as a small TODO to tidy up another time.
+
+   ------------
