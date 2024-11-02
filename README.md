@@ -212,9 +212,19 @@ I then finished my day by getting more familiar with Javascript, and completed t
   
   Firstly, I required that output to become a tuple - so I used the _map_ function, which encompassed an int conversion of the initial input variable (with a split to remove the '/'), all inside a tuple type conversion assigned to a new varaible.
   Then I had to convert it into a new variable as a date object (with the _datetime_ module), and assigning the individiual elements of the tuple to it.
-  Finally, I was insert this new variable into my request string as an f string, replacing the part of the link where the date was being called.
+  Finally, I inserted this new variable into my request string as an f string, replacing the part of the link where the date was being called.
 
   As a finishing touch, I converted the song and artist lists into one dictionary using the _dict_ and _zip_ methods, and using similar code as I did in day 14, looped through each item of the dictionary into a text tile. The filename also included the date variable from the input method (using another f string), for clarity. 
-  A minor issue with using this loop for the dictionary is that the text file includes curly bracket characters around each key pairing. I'll put this as a small TODO to tidy up another time.
+  A minor issue with using this loop for the dictionary is that the text file includes parentheses characters around each key pairing. I'll put this as a small TODO to tidy up tomorrow.
 
    ------------
+
+  --- Day 17 ---   
+  2024-11-01
+
+  I started the day by seeing if I could tidy up my text output from yesterday's project. After 20 minutes of looking up and trying various methods, I realised I called the variables inside the f string as a key value pairing! 
+  Once I separarted the key and value into their own curly brackets, the parentheses were omitted in the text output:
+
+  f"{song, top_one_hundred_songs[song]}\n" **-->** f"{song}, {top_one_hundred_songs[song]}\n"
+
+  
