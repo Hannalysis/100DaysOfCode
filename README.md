@@ -217,7 +217,7 @@ I then finished my day by getting more familiar with Javascript, and completed t
   As a finishing touch, I converted the song and artist lists into one dictionary using the _dict_ and _zip_ methods, and using similar code as I did in day 14, looped through each item of the dictionary into a text tile. The filename also included the date variable from the input method (using another f string), for clarity. 
   A minor issue with using this loop for the dictionary is that the text file includes parentheses characters around each key pairing. I'll put this as a small TODO to tidy up tomorrow.
 
-   ------------
+ ------------
 
   --- Day 17 ---   
   2024-11-01
@@ -227,4 +227,8 @@ I then finished my day by getting more familiar with Javascript, and completed t
 
   f"{song, top_one_hundred_songs[song]}\n" **-->** f"{song}, {top_one_hundred_songs[song]}\n"
 
+  I then spent a surprisingly large amount of time trying to install node.js on my windows machine. The environment seemed to only work per launch of powershell, so it took additional research, and guidance from a fellow web dev.
+  Managed to get to node and npm version checks to register upon each launch without manual input once a solution was found for the env, so calling that a win for the day.
+
+------------
   
