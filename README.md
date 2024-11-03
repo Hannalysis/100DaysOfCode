@@ -219,8 +219,8 @@ I then finished my day by getting more familiar with Javascript, and completed t
 
  ------------
 
-  --- Day 17 ---   
-  2024-11-01
+--- Day 17 ---   
+ 2024-11-02
 
   I started the day by seeing if I could tidy up my text output from yesterday's project. After 20 minutes of looking up and trying various methods, I realised I called the variables inside the f string as a key value pairing! 
   Once I separarted the key and value into their own curly brackets, the parentheses were omitted in the text output:
@@ -232,3 +232,12 @@ I then finished my day by getting more familiar with Javascript, and completed t
 
 ------------
   
+--- Day 18 ---   
+ 2024-11-03
+
+ Today I started with continuing the javascript materials in the Odin Project Foundations course...which ended up having some downtime due to Git Bash environment setup. I needed to make sure Git Bash could locate where node was installed and appropriately linked the path in the windows 
+ environment settings.
+
+ After that ordeal, I forked the javascript-exercises repo and worked through the first 3 exercises. This included getting familiar with the test scripts in javascript.
+
+ ------------
