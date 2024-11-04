@@ -241,3 +241,14 @@ I then finished my day by getting more familiar with Javascript, and completed t
  After that ordeal, I forked the javascript-exercises repo and worked through the first 3 exercises. This included getting familiar with the test scripts in javascript.
 
  ------------
+  
+--- Day 19 ---   
+ 2024-11-04
+
+Today I spent my time sorely on exercise 4 of the javascript-exercises; _04_removeFromArray_.
+
+I managed to make a function that allowed a singular numeral argument as the element that needs to be removed, however that answer was not scalable.
+Once I realised I required the ...args argument so the function could accept more optional arguments as input, is where my code got tricky (especially as I use utilising a loop for the item removal, and the splicing method, which ended up with multiple loops).
+After an embarassingly long amount of time trying to get all the tests to pass, I decided to check the solution. More javascript practice to follow.
+
+ ------------
