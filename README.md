@@ -257,5 +257,9 @@ After an embarassingly long amount of time trying to get all the tests to pass, 
   2024-11-05
 
   Today I continued with the javascript-exercises from The-Odin-Project. I managed to complete _05_sumAll_ and _06_leapYears_ with no issues.
-  I can almost say the same for 07_tempConversion, however I did have to take a bit of time to locate what method I should best use to round the numbers (using round did not allow me to specify any decimal places, 
+  I can almost say the same for _07_tempConversion_, however I did have to take a bit of time to locate what method I should best use to round the numbers (using round did not allow me to specify any decimal places, 
   so I utilised the toFixed() function, with a parseFloat type conversion to get the desired output.
+
+  After that, I read up up on the following section, DOM Manipulation and completed the first exercise; checking I am able to utilise javascript to populate html elements and append them appropriately inside their containers & divs.
+
+ ------------
