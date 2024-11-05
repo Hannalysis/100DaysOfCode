@@ -252,3 +252,10 @@ Once I realised I required the ...args argument so the function could accept mor
 After an embarassingly long amount of time trying to get all the tests to pass, I decided to check the solution. More javascript practice to follow.
 
  ------------
+
+ --- Day 20 ---   
+  2024-11-05
+
+  Today I continued with the javascript-exercises from The-Odin-Project. I managed to complete _05_sumAll_ and _06_leapYears_ with no issues.
+  I can almost say the same for 07_tempConversion, however I did have to take a bit of time to locate what method I should best use to round the numbers (using round did not allow me to specify any decimal places, 
+  so I utilised the toFixed() function, with a parseFloat type conversion to get the desired output.
