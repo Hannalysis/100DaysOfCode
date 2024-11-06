@@ -263,3 +263,14 @@ After an embarassingly long amount of time trying to get all the tests to pass, 
   After that, I read up up on the following section, DOM Manipulation and completed the first exercise; checking I am able to utilise javascript to populate html elements and append them appropriately inside their containers & divs.
 
  ------------
+
+ --- Day 21 ---   
+  2024-11-06
+
+  Today I continued my efforts on learning more javascript via The Odin Project Foundations course. Starting with a continuation of the DOM learning materials, and learning about Event elements.
+
+  As the next part required me to update the odin-rock-paper-scissors repo, I had to learn and understand how branching works in Git, and created a branch for the UI update I'd be doing to the project.
+  I managed to add functional buttons to the HTML, which triggered the round and selected my choice appropriately. I also started commenting over redundant variables and functions I'm no longer calling, and made a PH div through the DOM so I should be able to 
+  flesh out the results into the UI instead of the terminal tomorrow.
+
+  ------------
