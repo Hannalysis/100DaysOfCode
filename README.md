@@ -274,3 +274,16 @@ After an embarassingly long amount of time trying to get all the tests to pass, 
   flesh out the results into the UI instead of the terminal tomorrow.
 
   ------------
+
+   --- Day 22 ---   
+  2024-11-07
+
+  As mentioned yesterday, today I continued my efforts on revisiting the odin-rock-paper-scissors project.
+
+  I managed to utilise the DOM to change multiple div elements to reflect the selection, round and overall score which refreshes on every button click. I'm beginning to see the similarities between javascript DOM and Python's tkinter GUI module.
+  I then deleted the redundant playgame() function, and any other code I had commented out that was no longer serving any purpose. Once I was done with the updated game functionality, I gave myself a victory lap by adding some basic CSS
+  so the game is more visually pleasing inside the browser.
+
+  Finally, I pushed these files into my new branch, and learnt how to merge files back to main in Git, and delete the now redundant branch. The completed project can be viewed on this page: https://hannalysis.github.io/odin-rock-paper-scissors/
+
+  ------------
