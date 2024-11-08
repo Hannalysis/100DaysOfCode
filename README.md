@@ -275,7 +275,7 @@ After an embarassingly long amount of time trying to get all the tests to pass, 
 
   ------------
 
-   --- Day 22 ---   
+ --- Day 22 ---   
   2024-11-07
 
   As mentioned yesterday, today I continued my efforts on revisiting the odin-rock-paper-scissors project.
@@ -287,3 +287,14 @@ After an embarassingly long amount of time trying to get all the tests to pass, 
   Finally, I pushed these files into my new branch, and learnt how to merge files back to main in Git, and delete the now redundant branch. The completed project can be viewed on this page: https://hannalysis.github.io/odin-rock-paper-scissors/
 
   ------------
+
+--- Day 23 ---   
+ 2024-11-08
+
+ After a week of full-on Javascript related learnings, I decided to return to my python coding journey today. I started by practicing on the area I had left by completing a small web-scraping project utilising the BeautifulSoup4 module, on a static site.
+
+ I attempted a similar approach to a live site, with many headers to assist with the request, however I was unable to get through the captcha prompts.
+ Then I moved onto learning about the Selenium module, and utilising that I was able to access and print the information I was after.
+ I intend to continue exploring the Selenium module tomorrow with exercises inside Day 48 of the Udemy course.
+
+ ------------
