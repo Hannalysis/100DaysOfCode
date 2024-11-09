@@ -298,3 +298,17 @@ After an embarassingly long amount of time trying to get all the tests to pass, 
  I intend to continue exploring the Selenium module tomorrow with exercises inside Day 48 of the Udemy course.
 
  ------------
+
+ --- Day 24 ---   
+  2024-11-09
+
+  Today I decided to continue to familiarise myself with the Python module, Selerium. One of the exercises involved practicing utilising the _XPATH_ technique and _find_elements_ function to pull data from a heavily nested html element with little unique identifiers.
+  Once I grabbed those, I needed to convert the web elements to make them readable with the .text function, and used this inside a loop to place the two lists of scraped data (of dates, and events) into a nested dictionary (_event_dict_) with indexes:
+
+_  for i in range(0,len(event_names)-1):
+    i_dict = {}
+    i_dict['time'] = event_dates[i].text
+    i_dict['name'] = event_names[i].text
+    event_dict[i] = i_dict_
+
+ ------------
