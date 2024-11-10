@@ -291,7 +291,7 @@ After an embarassingly long amount of time trying to get all the tests to pass, 
 --- Day 23 ---   
  2024-11-08
 
- After a week of full-on Javascript related learnings, I decided to return to my python coding journey today. I started by practicing on the area I had left by completing a small web-scraping project utilising the BeautifulSoup4 module, on a static site.
+ After a week of full-on Javascript related learnings, I decided to return to my Python coding journey today. I started by practicing on the area I had left by completing a small web-scraping project utilising the BeautifulSoup4 module, on a static site.
 
  I attempted a similar approach to a live site, with many headers to assist with the request, however I was unable to get through the captcha prompts.
  Then I moved onto learning about the Selenium module, and utilising that I was able to access and print the information I was after.
@@ -305,10 +305,21 @@ After an embarassingly long amount of time trying to get all the tests to pass, 
   Today I decided to continue to familiarise myself with the Python module, Selerium. One of the exercises involved practicing utilising the _XPATH_ technique and _find_elements_ function to pull data from a heavily nested html element with little unique identifiers.
   Once I grabbed those, I needed to convert the web elements to make them readable with the .text function, and used this inside a loop to place the two lists of scraped data (of dates, and events) into a nested dictionary (_event_dict_) with indexes:
 
-_  for i in range(0,len(event_names)-1):
-    i_dict = {}
-    i_dict['time'] = event_dates[i].text
-    i_dict['name'] = event_names[i].text
-    event_dict[i] = i_dict_
+  for i in range(0,len(event_names)-1):  
+    i_dict = {}  
+    i_dict['time'] = event_dates[i].text  
+    i_dict['name'] = event_names[i].text  
+    event_dict[i] = i_dict  
 
  ------------
+
+ --- Day 25 ---   
+  2024-11-10
+
+  More Python; so therefore more Selerium practice! 
+  I started with a simple scrape to wiki to grab the amount of English articles, and utilised the _click()_ function for the first time - which took me to a different webpage without a manual input.
+  With that and the _send_keys_ function, I had to then follow-up and complete an exercise to autofill out a dummy sign-up site simply by running the script.
+
+  I also found out a way to automate a key command selection (ie ENTER) by importing the Key class from the selenium module, however I am yet to utilise it's function in practice yet - so will likely be looking at this tomorrow!
+
+------------
