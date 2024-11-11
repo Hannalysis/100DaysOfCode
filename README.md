@@ -302,7 +302,7 @@ After an embarassingly long amount of time trying to get all the tests to pass, 
  --- Day 24 ---   
   2024-11-09
 
-  Today I decided to continue to familiarise myself with the Python module, Selerium. One of the exercises involved practicing utilising the _XPATH_ technique and _find_elements_ function to pull data from a heavily nested html element with little unique identifiers.
+  Today I decided to continue to familiarise myself with the Python module, Selenium. One of the exercises involved practicing utilising the _XPATH_ technique and _find_elements_ function to pull data from a heavily nested html element with little unique identifiers.
   Once I grabbed those, I needed to convert the web elements to make them readable with the .text function, and used this inside a loop to place the two lists of scraped data (of dates, and events) into a nested dictionary (_event_dict_) with indexes:
 
   for i in range(0,len(event_names)-1):  
@@ -316,10 +316,22 @@ After an embarassingly long amount of time trying to get all the tests to pass, 
  --- Day 25 ---   
   2024-11-10
 
-  More Python; so therefore more Selerium practice! 
+  More Python; so therefore more Selenium practice! 
   I started with a simple scrape to wiki to grab the amount of English articles, and utilised the _click()_ function for the first time - which took me to a different webpage without a manual input.
   With that and the _send_keys_ function, I had to then follow-up and complete an exercise to autofill out a dummy sign-up site simply by running the script.
 
-  I also found out a way to automate a key command selection (ie ENTER) by importing the Key class from the selenium module, however I am yet to utilise it's function in practice yet - so will likely be looking at this tomorrow!
+  I also found out a way to automate a key command selection (ie ENTER) by importing the Key class from the Selenium module, however I am yet to utilise it's function in practice yet - so will likely be looking at this tomorrow!
+
+------------
+
+--- Day 26 ---   
+ 2024-11-11
+
+ So today I started working on a project to test my knowledge on the Selenium module - making a script to automate playing a version of the Cookie clicker web game.
+
+ I encountered struggles from the get go, as I spent a little too long trying different approaches to locating the html elements, only to find once I utilised input functions to pause and resume the script, the code was locating those elements fine, its just that the script was
+ not allowing for web page loading times - including the times between pop-ups such as cookies, and language selection. I added a command to halt the script briefly, and it allowed my script to dismiss the prompt and select the locale.
+ I originally utilised the _implicitly_wait()_ function from the _WebDriverWait_ class however once I realised it activates once per script, it was not effective enough for script to execute each command successfully. The function to click the cookie was not working, unless I paused the script manually.
+ I'm going to explore more options tomorrow, experimenting with the _time_ module, which has more flexibility, and hopefully, we can get a loop of clicks implemented too.
 
 ------------
