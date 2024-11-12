@@ -335,3 +335,13 @@ After an embarassingly long amount of time trying to get all the tests to pass, 
  I'm going to explore more options tomorrow, experimenting with the _time_ module, which has more flexibility, and hopefully, we can get a loop of clicks implemented too.
 
 ------------
+
+--- Day 27 ---   
+ 2024-11-12
+
+ Today I continued with my automated cookie clicker script in Python, using Selenium.
+ As mentioned yesterday, I managed to utilise the time module to allow coding executions to await appropriate site loading, and again awaiting the game interface to load properly once getting through the initial dialog boxes.
+ I got the code to loop, and managed to execute the clicker for 5 minutes, with simple hard coded int conditionals to allow for automatic upgrades to be selected within that loop - however that does not scale well.
+ I then managed to scrape the elements that check the upgrade increment cost, however, despite converting those variables to int, the conditionals did not like the thousand comma separator. The strip method did not resolve it either, so I'm going to investigate this tomorrow.
+
+ ------------
