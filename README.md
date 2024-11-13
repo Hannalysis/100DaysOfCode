@@ -339,9 +339,22 @@ After an embarassingly long amount of time trying to get all the tests to pass, 
 --- Day 27 ---   
  2024-11-12
 
- Today I continued with my automated cookie clicker script in Python, using Selenium.
+ Today I continued with my automated cookie clicker script in Python, using Selenium.  
+ 
  As mentioned yesterday, I managed to utilise the time module to allow coding executions to await appropriate site loading, and again awaiting the game interface to load properly once getting through the initial dialog boxes.
  I got the code to loop, and managed to execute the clicker for 5 minutes, with simple hard coded int conditionals to allow for automatic upgrades to be selected within that loop - however that does not scale well.
- I then managed to scrape the elements that check the upgrade increment cost, however, despite converting those variables to int, the conditionals did not like the thousand comma separator. The strip method did not resolve it either, so I'm going to investigate this tomorrow.
+ I then decided to scrape the elements that check the upgrade increment cost, however, despite converting the variables to int, the conditionals did not like the thousand comma separator for the 3rd upgrade. The strip method did not resolve it either, so I'm going to investigate this tomorrow.
 
  ------------
+
+--- Day 28 ---   
+  2024-11-13
+
+Today I finished up my cookie clicker project.  
+
+It came together quite quickly once I realised I could utilise the string replace method to remove the comma separator, and then convert that result into an integer. Therefore I was able to create a variable that located the current upgrade cost, 
+and converted it into an int that could be compared to the cookie funds we have to spare, and picked the most expensive upgrade it could afford. 
+I also placed the replace methods on the upgrade variables that do not initally require it, however if I wanted to expand the length of time I wanted the code to execute (ie 30 mins instead of 5) 
+then the code would still execute without once the smaller upgrades reached 4 digit figures.
+
+------------  
