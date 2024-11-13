@@ -357,4 +357,7 @@ and converted it into an int that could be compared to the cookie funds we have 
 I also placed the replace methods on the upgrade variables that do not initally require it, however if I wanted to expand the length of time I wanted the code to execute (ie 30 mins instead of 5) 
 then the code would still execute without once the smaller upgrades reached 4 digit figures.
 
-------------  
+I finished up the day by looking at my next project inside The Odin Project Foundations course - the Etch a Sketch.
+I got the repo made, documents created and ended with a small loop of code inside the javascript, populating 16 div elements inside the html file.
+
+------------
