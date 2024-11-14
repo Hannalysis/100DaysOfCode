@@ -327,7 +327,7 @@ After an embarassingly long amount of time trying to get all the tests to pass, 
 --- Day 26 ---   
  2024-11-11
 
- So today I started working on a project to test my knowledge on the Selenium module - making a script to automate playing a version of the Cookie clicker web game (https://orteil.dashnet.org/cookieclicker/).
+ So today I started working on a project to test my knowledge on the Selenium module - making a script to automate playing a version of the Cookie clicker web game (the one at orteil.dashnet.org).
 
  I encountered struggles from the get go, as I spent a little too long trying different approaches to locating the html elements, only to find once I utilised input functions to pause and resume the script, the code was locating those elements fine, its just that the script was
  not allowing for web page loading times - including the times between pop-ups such as cookies, and language selection. I added a command to halt the script briefly, and it allowed my script to dismiss the prompt and select the locale.
