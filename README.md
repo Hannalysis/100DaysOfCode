@@ -361,3 +361,18 @@ I finished up the day by looking at my next project inside The Odin Project Foun
 I got the repo made, documents created and ended with a small loop of code inside the javascript, populating 16 div elements inside the html file.
 
 ------------
+
+--- Day 29 ---   
+  2024-11-14
+
+Today I continued my efforts on the Etch a Sketch project, and pushed my changes here: [odin-etch-a-sketch](https://github.com/Hannalysis/odin-etch-a-sketch)
+
+I improved my initial grid generation loop; rather than spitting out 16 boxes in a line, I madea a nested loop to generate 4 boxes inside another div, named row -
+which would also run 4 times in total for the 16x16 grid. I then made the rows flex to make the grid form appropriately, and added basic visuals to the boxes
+so they could be seen.
+
+I followed it up with the next step - adding colour trails to the boxes with hover and the _addEventLister_ function.
+I initially got it running by accessing the div elements...however I realised it was also targetting the row divs (visually would have been passable however I curved my box edges so it was obvious). It took a while to get the code running when I switched out div for class name, as the addEventListener 
+refused to run against an HTML collection object. So I had to create an array to pass through each html item, and then code worked as intended!
+
+------------
