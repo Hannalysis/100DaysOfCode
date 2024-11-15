@@ -376,3 +376,14 @@ I initially got it running by accessing the div elements...however I realised it
 refused to run against an HTML collection object. So I had to create an array to pass through each html item, and then code worked as intended!
 
 ------------
+
+--- Day 30 ---   
+ 2024-11-15
+
+Today, much like yesterday, I continued to work on the Etch a Sketch project, and pushed my changes to the repo.
+
+I created an input button that would allow the inputted number to generate a n x n grid inside the browser page. However, the issue arose when I created a gridClear function that did not clear the entire grid.
+It took a while to realise that making a for loop to iterate through each element of the HTML collection was fruitless as the deleted elements would push the items up the list and the loop would miss them.
+So I had to create a const for the collection length before the loop iteration, and that allowed the previous grid to be fully deleted before creating a new one.
+
+------------
