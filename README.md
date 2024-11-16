@@ -387,3 +387,20 @@ It took a while to realise that making a for loop to iterate through each elemen
 So I had to create a const for the collection length before the loop iteration, and that allowed the previous grid to be fully deleted before creating a new one.
 
 ------------
+
+--- Day 31 ---   
+ 2024-11-16
+
+Today I managed to complete the Etch a Sketch assignment from The Odin Project Foundations course, with some optional extras. Link to page here: https://hannalysis.github.io/odin-etch-a-sketch/
+
+First I ensured the input prompt would not allow figures over 100 for the Grid generation, and then spent a fair amount of time figuring out how to stop my grid overflowing outside of the allocated container space.
+Turns out, I had set a dedicated size for the boxes a couple of days ago, once I got rid of that and utilised flex appropriately, no matter how big the grid was, it was contained within the allocated space.
+
+With the initial project completed, I wanted to see whether I wanted to add in the optional extras (after first tidying up my page visually, aligning the button and giving an all-round margin on the container).
+I had a look at the transition and opacity functions, and with some minor timing adjustments I added them to the grid, to make the generation functions feel more fluid.
+
+I then looked into creating a random colour function, and replacing the original colour change to that inside the _boxTrail()_ function. It worked well, however I personally preferred the previous trail - so I thought, why not give the project a way to toggle it?
+I reverted the colour change from the original _boxTrail()_ function, and made a new function; _boxColourTrail()_ which does use the colour randomiser. 
+As I now required more control and flexibility of the trails, I had to remove boxTrail() from the newGrid() function, and make a conditional to choose which trail to pick after the user enter a valid grid size.
+
+------------
