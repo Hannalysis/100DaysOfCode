@@ -399,8 +399,20 @@ Turns out, I had set a dedicated size for the boxes a couple of days ago, once I
 With the initial project completed, I wanted to see whether I wanted to add in the optional extras (after first tidying up my page visually, aligning the button and giving an all-round margin on the container).
 I had a look at the transition and opacity functions, and with some minor timing adjustments I added them to the grid, to make the generation functions feel more fluid.
 
-I then looked into creating a random colour function, and replacing the original colour change to that inside the _boxTrail()_ function. It worked well, however I personally preferred the previous trail - so I thought, why not give the project a way to toggle it?
+I then looked into creating a random colour function, and replacing the original colour change, to that inside the _boxTrail()_ function. It worked well, however I personally preferred the previous trail - so I thought, why not give the project a way to toggle it?
 I reverted the colour change from the original _boxTrail()_ function, and made a new function; _boxColourTrail()_ which does use the colour randomiser. 
-As I now required more control and flexibility of the trails, I had to remove boxTrail() from the newGrid() function, and make a conditional to choose which trail to pick after the user enter a valid grid size.
+As I now required more control and flexibility of the trails, I had to remove _boxTrail()_ from the _newGrid()_ function, and make a conditional to choose which trail to pick after the user enters a valid grid size.
 
 ------------
+
+--- Day 32 ---   
+ 2024-11-17
+
+ As I'm near the end of The Odin Project Foundations Course, I decided to carry on with that today.
+
+ I started with reading through the Objects section, and then continued with the outstanding javascript-exercises I had forked back in day 20.
+ I completed the _09_Palindromes_ and _10_Fibonacci_ exercises with only minor struggles (the syntax, as stated by Andy Harris - learning the second language is the hardest, and I'm living that experience right now!).
+ I encountered more issues with the _08_calculator_ exercise. In particular, the section where I needed to utilise the _reduce()_ method. I knew I needed it, I just took a while to put it together, and something about the syntax utilising the => is not clicking with me as well as it should.
+ For more logical based reasons, I did also take awhile to figure out the factorial method. I will aim to complete the remainder of the exercises tomorrow.
+
+ ------------
