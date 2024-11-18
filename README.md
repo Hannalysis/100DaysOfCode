@@ -416,3 +416,19 @@ As I now required more control and flexibility of the trails, I had to remove _b
  For more logical based reasons, I did also take awhile to figure out the factorial method. I will aim to complete the remainder of the exercises tomorrow.
 
  ------------
+
+--- Day 33 ---   
+ 2024-11-18
+
+ I started the day with completing the remaining javascript-exercises, and then set up my repo for the last assignment in The Odin Project Foundations Course; The Calculator Project!
+
+ I didn't run in any issues with _11_getTheTitles_, however I spent a painful amount of time on the last one, _12_findTheOldest_.
+ I knew I needed to utilise a reduce method, but I could not get the code to run successfully with it. I need to do some extra study on those methods (_reduce(), filter(), map()_).
+ I decided getting the solution with a longer method is better than just checking the solution, so I used syntax more akin to Python, and treating the array like a dictionary, for example:
+
+         age = people[person]['yearOfDeath'] - people[person]['yearOfBirth'];
+        if (age > savedYearsOld) {
+            savedYearsOld = age;
+            savedPerson = people[person];
+In summary, using square bracket pairings to step into each data value pairing. My solution was longer than what was provided, however I was pleased I did manage to get through the test cases with that code.
+      
