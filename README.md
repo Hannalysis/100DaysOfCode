@@ -432,3 +432,18 @@ As I now required more control and flexibility of the trails, I had to remove _b
             savedPerson = people[person];
 In summary, using square bracket pairings to step into each data value pairing. My solution was longer than what was provided, however I was pleased I did manage to get through the test cases with that code.
       
+--- Day 34 ---   
+2024-11-19
+
+Today I started working on the odin-calculator, and pushed my current progress to the repo, here: https://github.com/Hannalysis/odin-calculator
+
+I added the initial functions; some of which have come directly from the javascript-exercise on calculator on Day 32.
+I then spent a bit of time working on my first switch case loop, and using that as my method for the _operate()_ function.
+The main issue I was having was that I was returning 'undefined' when utilising my console.log tests, and realised that I had written the case statements incorrectly,
+ie  _case operator == '+':_ instead of simply  _case '+':_
+So I was in fact making boolean results which would not return a correct value type once the code had executed.
+
+I also created a couple of const to utilise the unicode for the multiply and divide symbols, which should aid me in creating my visual
+calculator in html tomorrow.
+
+ ------------
