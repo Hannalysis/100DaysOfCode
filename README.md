@@ -432,6 +432,8 @@ As I now required more control and flexibility of the trails, I had to remove _b
             savedPerson = people[person];
 In summary, using square bracket pairings to step into each data value pairing. My solution was longer than what was provided, however I was pleased I did manage to get through the test cases with that code.
       
+------------
+
 --- Day 34 ---   
 2024-11-19
 
