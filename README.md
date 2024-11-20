@@ -441,11 +441,25 @@ Today I started working on the odin-calculator, and pushed my current progress t
 
 I added the initial functions; some of which have come directly from the javascript-exercise on calculator on Day 32.
 I then spent a bit of time working on my first switch case loop, and using that as my method for the _operate()_ function.
-The main issue I was having was that I was returning 'undefined' when utilising my console.log tests, and realised that I had written the case statements incorrectly,
-ie  _case operator == '+':_ instead of simply  _case '+':_
+The main issue I was having was that I was returning 'undefined' when utilising my console.log tests, and realised that I had written the case statements incorrectly,  
+ie  _case operator == '+':_ instead of simply  _case '+':_  
 So I was in fact making boolean results which would not return a correct value type once the code had executed.
 
 I also created a couple of const to utilise the unicode for the multiply and divide symbols, which should aid me in creating my visual
 calculator in html tomorrow.
+
+ ------------
+
+--- Day 35 ---   
+2024-11-20
+
+Today I continued working on the odin-calculator, focusing on the display.
+
+Therefore I decided to re-use the code I had made from the etch-a-sketch; the nested loop to generate the boxes inside the row elements utilising the DOM. The main difference this time, is that rather than just creating boxes of a shared class, I also added a bespoke id to each box by
+adding template literals to each name with the iterator to make them unique.  
+
+My struggle today came with trying to manipulate the created boxes on the top row - to remove all but one box, and push it to fit the size of the other rows to mimic a calculator screen.  
+I made the other boxes on that row 0 width and height, and attempted to flex grow the remaining box, however that did not work. I followed the devTools suggestion and ensured the parent container's _display:block_ & _display: flex_ was enabled. I then tried a similar idea but with removing
+the other box elements with _display:none_ however I still had the same issue. For now, I decided to work with the _display:none_ and manually made the width of the remaining box a hard-coded width so it looks appropriately stretched like a screen and meets the edges of the other DOM generated buttons.
 
  ------------
