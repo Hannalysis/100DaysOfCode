@@ -478,5 +478,6 @@ I then created a bespoke _removeEventListener_ on the first viewable box(aka box
 However, I noticed if I clicked outside the paragraph element (which only took up 50% of the box) the console.log would print that div html element (the parent info). So I edited the CSS; flexed the div boxes and added _flex-grow:1_ to the paragraph elements (with no margin) so they took over the entire div 'button'.
 Due to the flex changing the location of the text, I had to adjust those elements by adding an _align-content_ rule inside the div box, and a small _padding-top_ on the paragraph*.
 
-* Note: There is still a minor bug present here; if I click on the very edges of the button, the user will click on the div instead of the p element, and will print a full html element.
+\* Note: There is still a minor bug present here; if I click on the very edges of the button, the user will click on the div instead of the p element, and will print a full html element.
+
 ------------
