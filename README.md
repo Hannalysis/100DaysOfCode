@@ -463,3 +463,20 @@ I made the other boxes on that row 0 width and height, and attempted to flex gro
 the other box elements with _display:none_ however I still had the same issue. For now, I decided to work with the _display:none_ and manually made the width of the remaining box a hard-coded width so it looks appropriately stretched like a screen and meets the edges of the other DOM generated buttons.
 
  ------------
+
+--- Day 36 ---   
+2024-11-21
+
+Today: More work on the odin-calculator!
+
+I started with changing the method for creating text on the div for the calculator buttons; I edited the code to create and append a paragraph html element, followed by the innerHTML on the paragraph variable to display the text. I then changed that hard-coded text to a variable that iterates through a list
+of calculator buttons (including the const I had made for multiply and divide a couple of days ago). The first 3 elements of the list, are just dummy elements, as the first 3 boxes of the calculator grid generation are hidden (as mentioned yesterday). I've made that clear inside the code with a comment and labelling those
+elements as 'N/A' strings for clarity.
+
+With the visuals complete, I started work on the functionality of the calculator, starting with button execution. I added an _addEventListener_ method to the calculator generator loop so every button would have a click functionality on the p element (and for now, prints the digit/symbol inside the console log).
+I then created a bespoke _removeEventListener_ on the first viewable box(aka box4, the calc display) as I did not want the user to be able to click on the calculator screen.
+However, I noticed if I clicked outside the paragraph element (which only took up 50% of the box) the console.log would print that div html element (the parent info). So I edited the CSS; flexed the div boxes and added _flex-grow:1_ to the paragraph elements (with no margin) so they took over the entire div 'button'.
+Due to the flex changing the location of the text, I had to adjust those elements by adding an _align-content_ rule inside the div box, and a small _padding-top_ on the paragraph*.
+
+* Note: There is still a minor bug present here; if I click on the very edges of the button, the user will click on the div instead of the p element, and will print a full html element.
+------------
