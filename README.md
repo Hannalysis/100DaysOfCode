@@ -481,3 +481,22 @@ Due to the flex changing the location of the text, I had to adjust those element
 \* Note: There is still a minor bug present here; if I click on the very edges of the button, the user will click on the div instead of the p element, and will print a full html element.
 
 ------------
+
+--- Day 37 ---   
+2024-11-22
+
+Today, I've made a lot of progress with the odin-calculator project - fully functioning, just needs a few adjustments that I'll hopefully complete tomorrow!
+
+I started with fixing the bug I found yesterday. Using the _replace()_ function, I started with this:
+
+    cleanTargetDigit = targetDigit.replace(/<p>/g, "");
+    screen.push(parseFloat(cleanTargetDigit));
+
+The above was enough to fix my bug, due to discovering that interestingly parseFloat manages to grab the float number from the left hand side of the string, and ignores the rest. 
+However, in case I wanted to take the clean String variable I decided to change it to the below statement, after realising you can make an or (|) statement inside the argument parameters:
+
+    cleanTargetDigit = targetDigit.replace(/<\/p>|<p>/g, "");
+
+After that, I moved onto adding the remaining functions required: _operatorClick() _(which I added to the DOM calculator generator loop), _clearScreen()_, _updateScreen()_ and _calculate()_ (for the returning value to be updated on the calc's display).
+
+------------
