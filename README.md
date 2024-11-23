@@ -497,6 +497,26 @@ However, in case I wanted to take the clean String variable I decided to change 
 
     cleanTargetDigit = targetDigit.replace(/<\/p>|<p>/g, "");
 
-After that, I moved onto adding the remaining functions required: _operatorClick() _(which I added to the DOM calculator generator loop), _clearScreen()_, _updateScreen()_ and _calculate()_ (for the returning value to be updated on the calc's display).
+After that, I moved onto adding the remaining functions required: _operatorClick()_ (which I added to the DOM calculator generator loop), _clearScreen()_, _updateScreen()_ and _calculate()_ (for the returning value to be updated on the calc's display).
+
+------------
+
+--- Day 38 ---   
+2024-11-23
+
+Today, I can finally say I've managed to complete the odin-calculator project to a satisfactory state - for now. Page located here: https://hannalysis.github.io/odin-calculator/
+
+Admittedly, this is the first time where I've gotten a little frustrated with attempting to write code when I felt like I knew where and what I wanted to write, but due to my lack of javascript knowledge I was struggling to locate the method I needed to get
+the ongoing calculations to function as long as the current screen had an operator inside of it. I focused on boolean style functions, first _search()_ (then I realised that was a string method but my screen is utilising an array), and _indexOf()_ (just did not work outright with the code I had). 
+I also got bogged down too much into trying to find a method or a way to set a value using newReg with the operators I needed it to search for. After a much needed break, I finally managed to create a function using the _includes()_ method, and simply used the or comparison operators to iterate through them.
+This worked out well as I needed a way to flag the opposite functionality of no operators present (at the start of the calculate function(), so if '=' is selected with no operators, no calculations will occur). 
+
+Outside of making the calcuator less bug prone, I also added a couple of keyboard funcitonality buttons - clear on DELETE & Backspace, and = on ENTER (just realising...I pushed my commit msg saying that I'd assigned Backspace to ENTER!). I considered adding the same keyboard functionality to the digits and the operators
+however due to how I'm populating the calculator and the EventListeners inside the calculator generator with DOM I would require many bespoke functions that almost mirror the click versions. So I'm postponing that for a later date, when I refactor my calculator to utilise a bespoke calc class.
+I also went against the extra credit task for disabling buttons, as I'd already done that off of my own back as my personal extra credit work on the odin-rock-paper-scissors project.
+
+Finally, I added a little bit more CSS; darkened the operator buttons, added a hover to brighten the text on the buttons, and added my first _linear-gradient()_ function to the screen to give it a little shine effect.
+
+Overall, I'm surprised how much I have learnt from doing this project, and it was a lot more time consuming than I had expected! I had completed a calculator project previously in Python but it was a small terminal app only, so I initially misjudged this project's difficulty and invested hours required. 
 
 ------------
