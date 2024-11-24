@@ -520,3 +520,24 @@ Finally, I added a little bit more CSS; darkened the operator buttons, added a h
 Overall, I'm surprised how much I have learnt from doing this project, and it was a lot more time consuming than I had expected! I had completed a calculator project previously in Python but it was a small terminal app only, so I initially misjudged this project's difficulty and invested hours required. 
 
 ------------
+
+--- Day 39 ---   
+2024-11-24
+
+With the Odin Project Foundations Course finished up and 1 day before bootcamp starts, I thought I would take a much needed Python day.
+
+I was relieved to feel that the syntax still felt familiar, however the same could not be said for the module I was utilising - BeautifulSoup4. Carrying on with my Udemy course, I started the capstone project - 
+which meant not only getting back into the swing of things after my longest time away from Python since I started learning it (10days!), I had not used that module since (looks back) Day 23 on here!
+
+That aside, I began my web-scraping project with another static-site; this time, to grab 3 sets of information from a rental property site: links, prices and addresses from a particular filter.
+The initial scrape was not too difficult, however removing all the html elements took a good while.
+In particular, the address list scrape:
+
+    addy_list = [place.getText().strip("\n\t ").replace( '|', '') for place in property_address]
+
+ Getting rid of the pipe symbol was tricky. Whether or not I placed that symbol with spaces or no spaces, or by making another variable utilising the addy_list...it was just stubborn. So as shown, I went with a separate replace method, and that solved the issue.
+ The strip list was also surprisingly long for the price list, however caused me less issues than the above.
+
+ With those 3 pieces of data neatly cleaned and stored via list comprehension, I'll be ready to continue this tomorrow (unless I have some homework to do!).
+
+ ------------
