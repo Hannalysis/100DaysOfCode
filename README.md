@@ -541,3 +541,15 @@ In particular, the address list scrape:
  With those 3 pieces of data neatly cleaned and stored via list comprehension, I'll be ready to continue this tomorrow (unless I have some homework to do!).
 
  ------------
+
+--- Day 40 ---   
+2024-11-25
+
+I am knackered today - I did not sleep well, and it was my first day at bootcamp! It was a great intro day though! However, I did not have a great deal of energy left post prep work so the update is not as substantial as usual.
+
+Anyway: Continuing with Python!
+
+Today I was far enough in the capstone project to utilise selenium, to manipulate the form fields and input PH text into each cell, submit the response form, and select the option to fill in another response. My only small hurdle I encountered at first, was the realistion to also import the time module so I could add a natural wait time
+to pause the script to allow the webpage to load, before actioning the webdriver functions.
+
+------------
