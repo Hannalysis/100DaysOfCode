@@ -549,7 +549,18 @@ I am knackered today - I did not sleep well, and it was my first day at bootcamp
 
 Anyway: Continuing with Python!
 
-Today I was far enough in the capstone project to utilise selenium, to manipulate the form fields and input PH text into each cell, submit the response form, and select the option to fill in another response. My only small hurdle I encountered at first, was the realistion to also import the time module so I could add a natural wait time
+Today I was far enough in the capstone project to utilise the Selenium module, to manipulate the form fields and input PH text into each cell, submit the response form, and select the option to fill in another response. My only small hurdle I encountered at first, was the realistion to also import the time module so I could add a natural wait time
 to pause the script to allow the webpage to load, before actioning the webdriver functions.
+
+------------
+
+--- Day 41 ---   
+2024-11-26
+
+Feeling a bit better today, but I did spent a lot of time today finishing up todays work at bootcamp.
+Finished up hacking an LLM task, and did many tough exercises about Git here: https://learngitbranching.js.org/
+
+Luckily my Python capstone project; Data Entry Automation was almost complete - I managed to write my loop to iterate through the 3 list types, to autofill out in the correct fields of the google form.
+The 44 entries were completed in under a minute thanks to the script, and I was able to push that data into a google spreadsheet. Feels good to finally get back into the Udemy course and complete a day again!
 
 ------------
