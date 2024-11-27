@@ -564,3 +564,13 @@ Luckily my Python capstone project; Data Entry Automation was almost complete - 
 The 44 entries were completed in under a minute thanks to the script, and I was able to push that data into a google spreadsheet. Feels good to finally get back into the Udemy course and complete a day again!
 
 ------------
+
+--- Day 42 ---  
+2024-11-27
+
+Full lecture & group assignment day at bootcamp, lots of talking and with start of totm; I'm shattered!
+
+So instead of starting a new project in Python I thought I would get through more of the exercises in CSS diner: https://flukeout.github.io/
+and I managed to impress myself with my progress; from exercise 16-29. Only 3 more left, but I'll take them another time.
+
+------------
