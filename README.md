@@ -574,3 +574,13 @@ So instead of starting a new project in Python I thought I would get through mor
 and I managed to impress myself with my progress; from exercise 16-29. Only 3 more left, but I'll take them another time.
 
 ------------
+
+--- Day 43 ---  
+2024-11-30
+
+Two days 'missed' due to hackathon at bootcamp. This may be a growing trend every Thurs-Fri for the next few months.
+
+Today, to help prep for next week's lectures, I focused my efforts on the basics of Javascript, and have therefore started the Javascript Syntax Part I section at Codecademy - my first module (Building Interactive Websites) towards their Full-Stack Engineer Career Path.
+I completed the first set of lessons and a half, covering the syntax, log statements, comments and operators.
+
+------------
