@@ -588,6 +588,11 @@ I completed the first set of lessons and a half, covering the syntax, log statem
 --- Day 44 ---  
 2024-12-01
 
-I decided to focus on more basics of Javascript for most of today's allocated study time.
-I completed two sets of lessons inside the Javascript Syntax Part I module; focusing on string concatenation and string interpolation (aka f strings in Python).
-I am now 29% complete on that module.
+I decided to focus on more basics of Javascript for most of today's allocated study time.  
+I completed two sets of lessons inside the Javascript Syntax Part I module; focusing on string concatenation and string interpolation (aka f strings in Python).  
+I am now 29% complete on that module.  
+
+I finished up by installing the Flask framework, and using Python to set up and run my first local web server, using the appropriate command line for Windows Powershell (only now realising that is what VS Code terminal is integrated with):
+$env:FLASK_APP = "thefilename.py" and then, flask run.
+
+------------
