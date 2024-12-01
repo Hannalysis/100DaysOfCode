@@ -580,7 +580,14 @@ and I managed to impress myself with my progress; from exercise 16-29. Only 3 mo
 
 Two days 'missed' due to hackathon at bootcamp. This may be a growing trend every Thurs-Fri for the next few months.
 
-Today, to help prep for next week's lectures, I focused my efforts on the basics of Javascript, and have therefore started the Javascript Syntax Part I section at Codecademy - my first module (Building Interactive Websites) towards their Full-Stack Engineer Career Path.
+Today, to help prep for next week's lectures, I focused my efforts on the basics of Javascript, and have therefore started the Javascript Syntax Part I module at Codecademy - my first section/track (Building Interactive Websites) towards their Full-Stack Engineer Career Path.
 I completed the first set of lessons and a half, covering the syntax, log statements, comments and operators.
 
 ------------
+
+--- Day 44 ---  
+2024-12-01
+
+I decided to focus on more basics of Javascript for most of today's allocated study time.
+I completed two sets of lessons inside the Javascript Syntax Part I module; focusing on string concatenation and string interpolation (aka f strings in Python).
+I am now 29% complete on that module.
