@@ -598,3 +598,17 @@ I finished up by installing the Flask framework, and using Python to set up and 
 and then into a separate line; flask run.
 
 ------------
+
+--- Day 45 ---  
+2024-12-02
+
+It's been a long day, so just continued to practice and learn new javascript methods and operators.
+
+I've realised you can add a default option to the switch case and how to utilise the ternary operator ?
+I've also learnt what a short-circuit evaluation is:
+
+    var = ''
+    let newVar = var || 'not a truthy'
+I'm now 35% complete on the Javascript Syntax Part 1 Unit in Codecademy.
+
+------------
