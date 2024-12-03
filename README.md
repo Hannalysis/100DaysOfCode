@@ -612,3 +612,17 @@ I've also learnt what a short-circuit evaluation is:
 I'm now 35% complete on the Javascript Syntax Part 1 Unit in Codecademy.
 
 ------------
+
+--- Day 46 ---  
+2024-12-03
+
+Today we have prep work at bootcamp that is utilising forked github repos, so taking that as my coding practice today.
+
+I started with the object recap practice, especially getting more familiar with calling nested objects, and creating my own object of nested properties. I enjoyed also creating a nested object reflecting a bestiary monster family type from FFXI for the experimental task  
+located here: https://github.com/SchoolOfCode/week-2-objects-recap-Hannalysis.
+
+I finished with array recap practice, which was equally enjoyable. I do feel I'm more confident with creating and manipulating arrays, as they feel functionally similar to lists in Python. I decided to utilise the experimental task to utilise whole number randomizer calculations -
+one for the videogame choice inside the main array, and if I picked 'Final Fantasy', the function would then initiate another randomizer and inform me which one I should play.
+Second forked repro located here: https://github.com/SchoolOfCode/week-2-arrays-recap-Hannalysis
+
+------------
