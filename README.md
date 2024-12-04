@@ -626,3 +626,15 @@ one for the videogame choice inside the main array, and if I picked 'Final Fanta
 Second forked repro located here: https://github.com/SchoolOfCode/week-2-arrays-recap-Hannalysis
 
 ------------
+
+--- Day 47 ---  
+2024-12-04
+
+Today was an intense one; focusing on debugging exercises in Javascript utilising DevTools for the majority of the day.
+
+This was actioned via Team Programming, so we all gave our input and took turns driving on the debugging - it was a great experience and gave us all a better insight on how and when to debug, and when to take a step back in situations where we may have over-focused on an area  
+to re-evaluate the code and think the lines we may have overlooked originally.
+
+In short, when in doubt use console.log to track your variables, input arguments, and what is returned from functions.
+
+------------
