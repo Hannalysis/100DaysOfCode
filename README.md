@@ -638,3 +638,33 @@ to re-evaluate the code and think the lines we may have overlooked originally.
 In short, when in doubt use console.log to track your variables, input arguments, and what is returned from functions.
 
 ------------
+
+--- Day 48 ---  
+2024-12-05
+
+Today was another start of our team hackathon; the project, rock-paper-scissors.
+
+As mentioned previously inside this readme file, I have previously completed the [rock-paper-scissors project](https://github.com/Hannalysis/odin-rock-paper-scissors) in javascript before. However, I took a look inside my js file inside that repo, and saw my old randomizer code:
+
+    function getComputerChoice () {
+        num = Math.random()
+        if (num < 0.33) {
+            npcChoice = "rock"
+        }
+        else if (num > 0.33 && num < 0.66) {
+            npcChoice = "scissors"
+        }
+        else npcChoice = "paper"
+        return npcChoice
+      }
+As you can see, this code is not giving a fully even 1/3 split selection between the choice the NPC can make. And thanks to the improved randomizer code I utilised for my game randomizer selections I created just two days ago (Day 46), I could re-use my improved logic and edit that file.
+So that's what I did:
+
+    function getComputerChoice () {
+        let npcOptions = ["rock", "paper", "scissors"];
+        let randomNumber = Math.floor(Math.random() * (3));
+        let npcChoice = npcOptions.at(randomNumber);
+        return npcChoice;
+    }
+
+But outside of this minor edit, it was an intense day of planning, and helping my team learn some of the Javascript required for our presentation tomorrow.
