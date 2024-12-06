@@ -668,3 +668,12 @@ So that's what I did:
     }
 
 But outside of this minor edit, it was an intense day of planning, and helping my team learn some of the Javascript required for our presentation tomorrow.
+
+--- Day 49 ---  
+2024-12-06
+
+Today was the presentation of the hackathon day. Busy, tiring but rewarding - mostly due to the fact that we gave ourselves adequete time to prepare for the presentation (even had time for 3 rehearsals!). We did well!
+
+My main takeaway from a coding pov, is that I now know how to change the styling of the console inside DevTools - injecting CSS inside javascript console.logs, with %c and css properties stated as an additional optional argument.
+
+------------
