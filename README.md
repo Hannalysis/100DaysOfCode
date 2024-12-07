@@ -687,3 +687,7 @@ Today I started with the weekend prep work for next week's bootcamp. I am feelin
 
 After reading through some HTML and CSS semantic layout documentation, I then had a go at the Grid Garden mini-game (https://cssgridgarden.com/) to practice the grid property functions; managed to achieve **level 24** out of 28 in ~35 minutes.
 I was working through them at a pace but I required some additional time to understand the fractional unit (fr) and apply that knowledge.
+
+After a break, I went through some CSS flex mini game called Flexbox Froggy: https://flexboxfroggy.com/, and I managed to complete all 24 levels in ~ 35 minutes. 
+
+------------
