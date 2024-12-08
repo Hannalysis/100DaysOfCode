@@ -700,10 +700,13 @@ Today I wanted to see if I could slot in a bit of a mixture of tasks:
 I started with a recap of the DOM exercise, that I originally completed back in Day 20, in order to prep for next week's bootcamp module.
 
 I continued by looking into a learning material my mentor recommended: https://www.frontendmentor.io/challenges?type=free so looking at that, I decided to start adding some better container formatting, flex and image tidying up on my https://github.com/Hannalysis/odin-recipes
-project. I decided to use a couple of pomodoros only, so I made sure I had time to work on my Python project.
+project. I decided to use a couple of pomodoros only, to make sure I had time to work on my Python project.
 My main learnings from the today's CSS work was the use of the calc() function:  
            
     height: calc(100vh - 96.24px); /* full page - (content + margins + borders) */
-Using this method and a bit of maths to calculate the remaining space of a page I wish to place inside a container, it gives me a temmplate to work around and carefully sort out all the containers contained inside this container.
+Using this method and a bit of maths to calculate the remaining space of a page I wish to place inside a container, it gives me a template to work around and carefully sort out all the containers contained inside this container.
 
+I finished up with re-visiting the basics of the flask Framework, understanding nested functions, and utilsing the @ symbol to utilise the Python Decorator function.  
+I intend to follow-up with the relevant exercise in the Udemy course next time I'm looking at this.
 
+------------
