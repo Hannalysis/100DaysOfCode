@@ -691,3 +691,19 @@ I was working through them at a pace but I required some additional time to unde
 After a break, I went through some CSS flex mini game called Flexbox Froggy: https://flexboxfroggy.com/, and I managed to complete all 24 levels in ~ 35 minutes. 
 
 ------------
+
+--- Day 51 ---  
+2024-12-08
+
+Today I wanted to see if I could slot in a bit of a mixture of tasks:
+
+I started with a recap of the DOM exercise, that I originally completed back in Day 20, in order to prep for next week's bootcamp module.
+
+I continued by looking into a learning material my mentor recommended: https://www.frontendmentor.io/challenges?type=free so looking at that, I decided to start adding some better container formatting, flex and image tidying up on my https://github.com/Hannalysis/odin-recipes
+project. I decided to use a couple of pomodoros only, so I made sure I had time to work on my Python project.
+My main learnings from the today's CSS work was the use of the calc() function:  
+           
+    height: calc(100vh - 96.24px); /* full page - (content + margins + borders) */
+Using this method and a bit of maths to calculate the remaining space of a page I wish to place inside a container, it gives me a temmplate to work around and carefully sort out all the containers contained inside this container.
+
+
