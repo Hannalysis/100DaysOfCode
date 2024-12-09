@@ -710,3 +710,11 @@ I finished up with re-visiting the basics of the flask Framework, understanding 
 I intend to follow-up with the relevant exercise in the Udemy course next time I'm looking at this.
 
 ------------
+
+--- Day 52 ---  
+2024-12-08
+
+I did not end up with as much energy as I was hoping for today, so after my day at bootcamp (intro to DOM manipulation | Events) 
+I went for a quick javascript session in Codecademy, revising my current knowledge in truthy statements, and utilising some Ternary expressions.
+
+------------
