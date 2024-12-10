@@ -712,9 +712,19 @@ I intend to follow-up with the relevant exercise in the Udemy course next time I
 ------------
 
 --- Day 52 ---  
-2024-12-08
+2024-12-09
 
 I did not end up with as much energy as I was hoping for today, so after my day at bootcamp (intro to DOM manipulation | Events) 
 I went for a quick javascript session in Codecademy, revising my current knowledge in truthy statements, and utilising some Ternary expressions.
+
+------------
+
+--- Day 53 ---  
+2024-12-10
+
+Today was absolutely packed at the bootcamp and the prep work was intense.
+
+I spent the day with my team ploughing through some DOM manipulation challenges, and finished up the evening researching about APIs, Promises and the differences between synchronous and asynchronous code.
+I also signed up to codewars as requested, and completed my first 4 javascript katas; 8 kyu (9).
 
 ------------
