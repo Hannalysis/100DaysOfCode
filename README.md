@@ -724,7 +724,16 @@ I went for a quick javascript session in Codecademy, revising my current knowled
 
 Today was absolutely packed at the bootcamp and the prep work was intense.
 
-I spent the day with my team ploughing through some DOM manipulation challenges, and finished up the evening researching about APIs, Promises and the differences between synchronous and asynchronous code.
-I also signed up to codewars as requested, and completed my first 4 javascript katas; 8 kyu (9).
+I spent the day with my team ploughing through some DOM manipulation challenges, and finished up the evening researching about APIs, Promises and the differences between synchronous and asynchronous code.  
+I also signed up to CodeWars as requested, and completed my first 4 javascript katas; 8 kyu (9).
+
+------------
+
+--- Day 54 ---  
+2024-12-11
+
+Today at the bootcamp our team first tackled an escape room based around an API fetch (we almost solved it!) and followed up with a functioning app to call dad jokes from an API instead of from a hard coded array.  
+
+After prep work, I had a bit of time to continue and complete all my initial kata challenges SoC set out for us to do on CodeWars : 8kyu (15).
 
 ------------
