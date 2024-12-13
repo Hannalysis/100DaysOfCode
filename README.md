@@ -737,3 +737,11 @@ Today at the bootcamp our team first tackled an escape room based around an API 
 After prep work, I had a bit of time to continue and complete all my initial kata challenges SoC set out for us to do on CodeWars : 8kyu (15).
 
 ------------
+
+--- Day 55 ---  
+2024-12-12
+
+Today was our weekly hackathon start, and I spent the best of the evening coding the solution for the API fetch, and the functions to interact with the button and text inputs on the page:  
+https://github.com/SchoolOfCode/week-3-hackathon-team-9-aquamarine/blob/main/fetch.js
+
+------------
