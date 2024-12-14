@@ -758,4 +758,6 @@ https://github.com/SchoolOfCode/week-4-importing-and-exporting-modules-Hannalysi
 It taught me how to export and import functions with javascript, how to run node commands into the terminal,  
 and how to use a package.json file to run a script using the npm start command.
 
+Finally, ended the day with a few exercises in CodeWars and ranked up: 7kyu (41), and a notch further on my Codecademy module: Javascript Syntax Part 1: 41%.
+
 ------------
