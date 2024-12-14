@@ -755,7 +755,7 @@ Back on it today; starting with the prep work for our module on Back-End Enginee
 After understanding node.js (luckily, I had already installed it prior to the bootcamp); I went straight for the exercise material located on this repo:  
 https://github.com/SchoolOfCode/week-4-importing-and-exporting-modules-Hannalysis  
 
-It taught me how to export and import functions with javascript, how to run node commands into the terminal, and how to use a package.json file to run a script using the  
-npm start command.
+It taught me how to export and import functions with javascript, how to run node commands into the terminal,  
+and how to use a package.json file to run a script using the npm start command.
 
 ------------
