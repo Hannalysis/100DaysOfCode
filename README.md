@@ -761,3 +761,29 @@ and how to use a package.json file to run a script using the npm start command.
 Finally, ended the day with a few exercises in CodeWars and ranked up: 7kyu (41), and a notch further on my Codecademy module: Javascript Syntax Part 1: 41%.
 
 ------------
+
+--- Day 57 ---  
+2024-12-15
+
+Today I wanted a break from Javascript, so did a little session on Python.
+
+I continued with learning about the Flask module, and started understanding how to populate a basic local server with   
+HTML elements, on multiple pages via the @app.route method.
+
+I also learnt how to write a python decorator that counts how long it takes to run a function:
+
+    import time
+     
+    def speed_calc_decorator(function):
+        def wrapper_function():
+            time_before = time.time()
+            function()
+            time_after = time.time()
+            time_taken = time_after - time_before
+            print(time_taken)
+        return wrapper_function
+
+To explain the above, I'm passing through a function, and before it activates, it will take a snapshot of the current time  
+(in seconds since 1/1/1970). The function will activate, then I will call another snapshot of the current time, then using  basic arithmetic minus the second snapshot(time_after) from the first (time_before).
+
+------------
