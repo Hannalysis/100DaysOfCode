@@ -787,3 +787,30 @@ To explain the above, I'm passing through a function, and before it activates, i
 (in seconds since 1/1/1970). The function will activate, then I will call another snapshot of the current time, then using  basic arithmetic minus the second snapshot(time_after) from the first (time_before).
 
 ------------
+
+--- Day 58 ---  
+2024-12-16
+
+Today at bootcamp we spent time practicing async functions, imports and working with node.js.
+
+I spent an unhealthy amount of time working through a particular exercise, Ticket 2C, which required me to add a new quote to an object with an id generated from the UUID module, adding it to the existing array, and writing it to another file:
+
+    export async function addQuote(quoteText) {
+        // Grabbing the list of quotes
+        const quoteList = await getQuotes();
+        console.log(`this is : ${JSON.stringify(quoteList)}`);
+        const newId = uuidv4();
+        const newQuoteObject = {"id": newId, "quoteText": quoteText};
+        // Adding new id + quote to the array
+        quoteList.push(newQuoteObject);
+        console.log(quoteList);
+        try {
+            const dataUpdate = await fs.writeFile(FILENAME, JSON.stringify(quoteList),'utf-8');
+            return newQuoteObject;
+            // console.log(dataUpdate);
+        } catch (error) {
+            console.error('Error writing file:', error);
+        }
+    }
+
+------------
