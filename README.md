@@ -814,3 +814,16 @@ I spent an unhealthy amount of time working through a particular exercise, Ticke
     }
 
 ------------
+
+--- Day 59 ---  
+2024-12-17
+
+Today at bootcamp we wrestled with express to create our own API server handler. 
+
+I managed to complete tasks for creating app functions for get, post, and patch with the appropriate status responses  
+and data displayed. I started to struggle when it came to utilising the delete request and was unable to successfully get working code for now.
+Repo activity app.js link below:
+
+https://github.com/SchoolOfCode/week-4-building-a-rest-api-the-paige-turners/commit/62b2c4ae35ea7db11ebfb663d234cb101a60e4fb
+
+------------
