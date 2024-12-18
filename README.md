@@ -827,3 +827,13 @@ Repo activity app.js link below:
 https://github.com/SchoolOfCode/week-4-building-a-rest-api-the-paige-turners/commit/62b2c4ae35ea7db11ebfb663d234cb101a60e4fb
 
 ------------
+
+--- Day 60 ---  
+2024-12-18
+
+Today we continued to work with restful API, with a more difficult workshop! It was intense, and we got tripped up by tests that should have been passing some of our solutions (even the lecturer could not figure out why our tests were misbehaving!) 
+We managed to get through many tasks, including making a successful GET, POST, PUT, and DELETE with the appropriate status code responses and message body.
+
+https://github.com/SchoolOfCode/week-4-restful-api-workshop-the-paige-turners/blob/master/routes/astronauts.js
+
+------------
