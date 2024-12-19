@@ -837,3 +837,14 @@ We managed to get through many tasks, including making a successful GET, POST, P
 https://github.com/SchoolOfCode/week-4-restful-api-workshop-the-paige-turners/blob/master/routes/astronauts.js
 
 ------------
+
+--- Day 61 ---  
+2024-12-19
+
+Today was the start of our weekly hackathon at SoC.  
+
+For our Rest API hackathon, I am responsible for populating our database (converting csv to json data) and providing the appropriate routing functionality for our server, as shown in the link below:
+
+https://github.com/SchoolOfCode/week-4-rest-api-hackathon-the-paige-turners/blob/main/server/routes/weapons.js
+
+------------
