@@ -848,3 +848,8 @@ For our Rest API hackathon, I am responsible for populating our database (conver
 https://github.com/SchoolOfCode/week-4-rest-api-hackathon-the-paige-turners/blob/main/server/routes/weapons.js
 
 ------------
+
+--- Day 62 ---  
+2024-12-20
+
+Yesterday was the weekly presentation day for our hackathon. So I rested after a heavy week of using Node.js and Express to create our own restful APIs.
