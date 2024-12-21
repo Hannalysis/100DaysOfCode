@@ -864,6 +864,6 @@ To achieve this in Python:
 
 And, of course as I'm also studying Javascript it would be remiss to not also know that syntax:  
     
-    You called ${function.name}
+    `You called ${function.name}`
     
 ------------
