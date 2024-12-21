@@ -860,12 +860,12 @@ My main takeaway from today's learning was that the img html tag could not utili
 I also revisited Python decorators, and I was surprised to realise that I'd never utilised f strings (string interpolation) to showcase just the name of the function.   
 To achieve this in Python:  
      
-    f"You called {function.__name__}"
-
+    f"You called {function.__name__}"  
+  
 And, of course as I'm also studying Javascript it would be remiss to not also know that syntax:  
-    
-    `You called ${function.name}`
-
+      
+    `You called ${function.name}`  
+  
 I ended my day with a quick pomodoro on my Codecademy module: Javascript Syntax Part 1: 48%.  
 This involved some practice with arrow function notation (arrow replaces function), and conscise arrow notation (single line, no return, no curly braces, parenthesis on no arguments or two or more).
     
