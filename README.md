@@ -855,14 +855,14 @@ https://github.com/SchoolOfCode/week-4-rest-api-hackathon-the-paige-turners/blob
 Yesterday was the weekly presentation day for our hackathon. So I rested after a heavy week of using Node.js and Express to create our own restful APIs.  
 
 Today I decided to return to Python to continue learning and working on my first basic Flask app, utilising routes, much like Express in Javascript.  
-My main takeaway from today's learning was that the <img> html tag could not utilise conventional style tags within, however I found out that using <center> tags around the img tag was the solution.
+My main takeaway from today's learning was that the img html tag could not utilise conventional style tags within, however I found out that using center tags around the img tag was the solution.  
 
 I also revisited Python decorators, and I was surprised to realise that I'd never utilised f strings (string interpolation) to showcase just the name of the function.   
 To achieve this in Python:  
      
     f"You called {function.__name__}"
 
-And, of course as I'm also studying Javascript it would be remiss to not also know that syntax:
+And, of course as I'm also studying Javascript it would be remiss to not also know that syntax:  
     
     You called ${function.name}
     
