@@ -865,5 +865,8 @@ To achieve this in Python:
 And, of course as I'm also studying Javascript it would be remiss to not also know that syntax:  
     
     `You called ${function.name}`
+
+I ended my day with a quick pomodoro on my Codecademy module: Javascript Syntax Part 1: 48%.  
+This involved some practice with arrow function notation (arrow replaces function), and conscise arrow notation (single line, no return, no curly braces, parenthesis on no arguments or two or more).
     
 ------------
