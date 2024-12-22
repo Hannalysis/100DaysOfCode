@@ -870,3 +870,22 @@ I ended my day with a quick pomodoro on my Codecademy module: Javascript Syntax 
 This involved some practice with arrow function notation (arrow replaces function), and conscise arrow notation (single line, no return, no curly braces, parenthesis on no arguments or two or more).
     
 ------------
+
+--- Day 63 ---  
+2024-12-22
+
+Today I decided to complete my first Python Flask app (Higher Lower game, utilising routes for user guesses).
+
+My main issue was trying to work out what syntax I had to utilise in order to allow user input inside the uri - and discovered int: variable_name, inside a tag:
+
+    @app.route("/<int:user_guess>")
+
+My second hurdle encountered when trying to inject multiple style options inside the html content, and realised seperation between styling required semicolons.
+
+I finished off my day by completing a couple of sections in my current Codecademy module: Javascript Syntax Part 1: 54%.
+I got good practice defining functions with the arrow:
+
+    const functionName = () => {
+    }
+
+------------
