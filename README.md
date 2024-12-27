@@ -888,4 +888,15 @@ I got good practice defining functions with the arrow:
     const functionName = () => {
     }
 
-------------
+------------  
+  
+--- Day 64 ---  
+2024-12-27
+
+After a lovely, much needed Christmas break (I did actually spend some on the evening on Xmas day drafting out my initial planning documents for my new personal project (codename CoCo)), I'm back on the coding bandwagon.  
+
+Today was a research into data analysis modules, utilising Python. I got gifted a copy of _"50 Days of Data Analysis with Python"_ paperback, and spent most of today reading through all the fundamentals.  
+I then finished up by writing up a list of tasks, and data analysis types I wanted to practice or utilise for my own future projects (Heatmaps, Piecharts, Box Plots, Line Graphs utilising Numpy, Pandas, Matplotlib & Seaborn).  
+
+------------  
+
