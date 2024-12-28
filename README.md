@@ -903,7 +903,7 @@ I then finished up by writing up a list of tasks, and data analysis types I want
 --- Day 65 ---  
 2024-12-28
 
-Today I realised I did not have the creative energy to start/continue planning for my personal projects, so I decided to go back and complete one of the previous SoC assignments, on my own branch.  
+Today I realised I did not have the creative energy to start/continue planning for my personal projects, so I decided to go back and complete one of the previous SoC assignments from the Front-End Engineer module - on my own branch.  
 
 So I selected the DOM manipulation workshop, and continued from tasks 3 - completion.  
 Tasks 4 and 5 caused me little issue, but I was really struggling with 3 throughout [https://github.com/SchoolOfCode/week-3-dom-challenges-team-9-aquamarine/blob/hw/03-star-slider-challenge/app.js].  
