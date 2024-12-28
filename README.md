@@ -900,3 +900,24 @@ I then finished up by writing up a list of tasks, and data analysis types I want
 
 ------------  
 
+--- Day 65 ---  
+2024-12-28
+
+Today I realised I did not have the creative energy to start/continue planning for my personal projects, so I decided to go back and complete one of the previous SoC assignments, on my own branch.  
+
+So I selected the DOM manipulation workshop, and continued from tasks 3 - completion.  
+Tasks 4 and 5 caused me little issue, but I was really struggling with 3 throughout [https://github.com/SchoolOfCode/week-3-dom-challenges-team-9-aquamarine/blob/hw/03-star-slider-challenge/app.js].  
+It took me a while to first understand that I needed to grab the value of the slider in order to obtain the incremental changes, make a function to add or remove star symbols, and attach those to the correct element.  
+At first I was attaching them to the parent element, which meant any styling was negated. As soon as I realised I needed to treat the html collection much like an array, I was able to point to the child element and attach the stars appropriately:
+
+    function sliderValue() {
+      let setStars = "";
+      for (i = 0; i < starSlider.value; i++){
+        setStars += "★";
+      }
+      starIcon[0].textContent = setStars;
+    }
+    
+    starSlider.addEventListener("input", sliderValue);
+
+------------  
