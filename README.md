@@ -921,3 +921,24 @@ At first I was attaching them to the parent element, which meant any styling was
     starSlider.addEventListener("input", sliderValue);
 
 ------------  
+
+--- Day 66 ---  
+2024-12-29
+
+Today was an interesting one, I did not even write a single line of code - as I was planning my first personal project!  
+
+Thanks to a little bit of time on Christmas day, I had hand-written a brief regarding what problem I'm trying to solve, with a rough but very much disney idealised brainstorm of what my project should and could contain.  
+
+Today I focused on creating my first MVP, utilising Excalidraw for the first time. It ended up creeping into what I believe to be two milestones, so I ended up highlighting what would be appropriate for MS1 and then for my second interation, MS2.  
+
+I then spent some time figuring out what my main page is going to look like for the user, and took some screen captures of different elements and windows inside a couple of my favourite Digital Audio Workstations(DAWs); Reaper and Cubase 10 Pro.  
+This included but wasn't limited to, their main pages when you open a music project (typically a hybrid of a mixing view, track selection with plugin effects, and timings and bars across the top), chord pad windows, LUFS meter, track list, EQ window etc.  
+With this information, I made a first draft of my main page, with outlines showcasing what elements and interactables were going to be, and what the visual graph data was going to look like.  
+
+I then run into my next connumdrum; which visual graph module should I utilise and from what language?  
+There's Pythons: Matplotlib | Seaborn   
+And Javascripts: D3 | Plotly | Vegalite 
+
+I need to investigate.
+
+------------  
