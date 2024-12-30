@@ -942,3 +942,27 @@ And Javascripts: D3 | Vegalite
 I need to investigate.
 
 ------------  
+
+--- Day 67 ---  
+2024-12-30
+
+The investigation took many more hours than I had intended.  Outside of struggling to get some modules to showcase data in the format I wanted, I was also surprised to see how often I struggled to get a module to run at all...  
+
+Python Modules:  
+Overall I did not struggle with running any module from this language; I was having issues in regards to the options regarding visual data.  In the end, my shortlist was:  
+✔️ Matplotlib  
+✔️ Seaborn  (w/ Matplotlib - due to requiring the Bar Range graph)  
+✔️ Bokeh  
+❌ Plotly  
+
+Javascript Modules:  
+There were at least 3 cases (all crossed below) were a module depended on another module that is currently unstable (aka canvas), and the remaining two had multiple other dependencies, and interesting workarounds just to get them to function:  
+✔️ D3  
+❌ Chart  
+❌ HighCharts  
+✔️ Google Charts  
+❌ Plotly   
+
+I will not go into too much depth here, but I have recorded a document with the pros and cons of the available graph visualisations, and will refer to that to make my decision which one is going to be used for my personal project MVP.  
+
+------------  
