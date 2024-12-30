@@ -935,9 +935,9 @@ I then spent some time figuring out what my main page is going to look like for 
 This included but wasn't limited to, their main pages when you open a music project (typically a hybrid of a mixing view, track selection with plugin effects, and timings and bars across the top), chord pad windows, LUFS meter, track list, EQ window etc.  
 With this information, I made a first draft of my main page, with outlines showcasing what elements and interactables were going to be, and what the visual graph data was going to look like.  
 
-I then run into my next connumdrum; which visual graph module should I utilise and from what language?  
-There's Pythons: Matplotlib | Seaborn   
-And Javascripts: D3 | Plotly | Vegalite 
+I then run into my next conundrum; which visual graph module should I utilise and from what language?  
+There's Pythons: Matplotlib | Seaborn | Plotly  
+And Javascripts: D3 | Vegalite 
 
 I need to investigate.
 
