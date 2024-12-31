@@ -1,5 +1,7 @@
-# -100DaysOfCode_Challenge
-Challenged by SoC. Challenge accepted!
+<h1 align = "center"># 100DaysOfCode </h1>
+ <div align = "center"><i> Challenged by SoC</i></div>
+ 
+ ------------
 
 --- Day 1 ---  
  2024-10-17
