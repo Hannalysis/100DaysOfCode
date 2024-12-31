@@ -966,3 +966,18 @@ There were at least 3 cases (all crossed below) were a module depended on anothe
 I will not go into too much depth here, but I have recorded a document with the pros and cons of the available graph visualisations, and will refer to that to make my decision which one is going to be used for my personal project MVP.  
 
 ------------  
+
+--- Day 68 ---  
+2024-12-31
+
+So, today was the day I finally could start my project! Which made me realise, for the first time I did not feel ready to code!  
+
+Therefore I decided to spend some time in Github planning my tasks (in issues, maybe I should try the project tab next time!) writing what I thought was only ~ 8 tasks but I entered 13, and some are quite heavy and may require further breaking down later.  
+
+Enough procrastinating was had, and I decided to work on my first project-related task: Building a basic wireframe in HTML and CSS.  
+
+It felt like an age since I last really dealt with styling and it showed. But it was great to finally utilise flex methods with the flex-grow attribute stated in 2 separate containers, in my first situation outside of a mandatory exercise or mini-game.  I also learnt how to implement a couple of google fonts, by utilising the ref link inside of the head of the html file.  
+
+I finished up the day by learning how to commit in Github by linking an issue to close upon pushing to the remote repository.  
+
+------------  
