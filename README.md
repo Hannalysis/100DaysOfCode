@@ -983,3 +983,8 @@ It felt like an age since I last really dealt with styling and it showed. But it
 I finished up the day by learning how to commit in Github by linking an issue to close upon pushing to the remote repository.  
 
 ------------  
+
+--- Day 69 ---  
+2025-01-02
+
+I didn't have the best night's rest, so I started today with a pomodoro session practicing my javascript using a Codecademy module: Javascript Syntax Part 1: 64%
