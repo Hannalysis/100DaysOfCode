@@ -996,6 +996,6 @@ until I realised I could create a reference table in a separate sheet, and utili
      =VLOOKUP(H3, NoteMIDIconversion!$A$2:$B$129, 2, FALSE)
 
 I then utilised my csv to json javascript code to format my data (and subsequently, accidently learned that the period key '.' creates a nested set  
-of key value pairings), so I decided to nest my note range typings using that shortcut, and updating my google sheet for smoother conversions in future.  
+of key value pairings), so I decided to nest my note range typings using that shortcut, and lastly, reflected those changes inside my google sheet for smoother conversions in future.  
 
 ------------ 
