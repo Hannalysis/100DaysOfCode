@@ -987,4 +987,15 @@ I finished up the day by learning how to commit in Github by linking an issue to
 --- Day 69 ---  
 2025-01-02
 
-I didn't have the best night's rest, so I started today with a pomodoro session practicing my javascript using a Codecademy module: Javascript Syntax Part 1: 64%
+I didn't have the best night's rest, so I started today with a pomodoro session practicing my javascript using a Codecademy module: Javascript Syntax Part 1: 64%  
+
+After that, I started to work on populating a small scale instrument data set for my personal project, using google sheets.  
+I was surprised how much information was tricky to colate, and I also had to mathmatically convert note names to MIDI numbers...  
+until I realised I could create a reference table in a separate sheet, and utilise the vlookup formula to populate those numeral conversions for me:
+
+     =VLOOKUP(H3, NoteMIDIconversion!$A$2:$B$129, 2, FALSE)
+
+I then utilised my csv to json javascript code to format my data (and subsequently, accidently learned that the period key '.' creates a nested set  
+of key value pairings), so I decided to nest my note range typings using that shortcut, and updating my google sheet for smoother conversions in future.  
+
+------------ 
