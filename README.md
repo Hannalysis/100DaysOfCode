@@ -999,3 +999,14 @@ I then utilised my csv to json javascript code to format my data (and subsequent
 of key value pairings), so I decided to nest my note range typings using that shortcut, and lastly, reflected those changes inside my google sheet for smoother conversions in future.  
 
 ------------ 
+
+--- Day 70 ---  
+2025-01-03
+
+Today I contined with my personal project.  
+
+I started with creating a main js file, to import my dataset to and to add an id element to each entry.  I then linked each file to make sure they could communicate with one another, and to ensure when running the html file on a live server, it is able to log all of the data entries.  
+My next main task was to begin implementing my draggable instrument items container - so I started with utilising DOM manipulation to generate a couple of rows of boxes inside that container (with hard coded PH numbers for now).  
+I finished off today's work with some CSS to size and visualise the boxes to check the core generation was working as intended.
+
+------------ 
