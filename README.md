@@ -1036,4 +1036,12 @@ I started my day with a section of Javascript fundamentals inside Codecademy, mo
    
  Javascript Syntax Part 1: 70%  
 
+I then spent the day focused on my personal project - populated an container with instruments inside a separate div box element, and made them all draggable.  Implementing a drag feature was new to me, and I did have some teething issues upon implmentation.  
+The largest one being finding a solution for allowing my draggable elements to populate appropriately upon the web page initially loading: the position absolute attribute causes a strange stacking effect for all divs inside the same container.  
+Until I realised I could edit the style element inside javascript, therefore upon initially loading the page the box divs would be set to position: relative until I executed the following DOM line inside the draggable event;
+
+      dragElement.style.position = "absolute";  
+  
+With this, some CSS transition to smoothen the grabbing effect (and the side effect of grabbing which moves other divs adjusting to their new position), and z-index manipulation to ensure the dragged item is on the front layer, I completed my task and closed the issue via the github commit #.  
  
+------------ 
