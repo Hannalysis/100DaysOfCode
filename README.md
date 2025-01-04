@@ -1011,3 +1011,34 @@ My next main task was to begin implementing my draggable instrument items contai
 I finished off today's work with some CSS to size and visualise the boxes to check the core generation was working as intended.
 
 ------------ 
+
+--- Day 71 ---  
+2025-01-04
+
+I started my day with a section of Javascript fundamentals inside Codecademy, mostly solidifying my switch case functions. The following example below gives a lot of clarity and fun in explaining it's functionality:
+
+    const toEmoticon = str => {
+     switch(str){
+       case "shrug":
+         return '|_{"}_|'
+         break;
+       case "smiley face":
+         return ':)'
+         break;
+       case "frowny face":
+         return ':('
+         break;
+       case "winky face":
+         return ';)'
+         break;
+       case "heart":
+         return '<3'
+         break;
+       default:
+         return '|_(* ~ *)_|';
+     }
+    }
+   
+ Javascript Syntax Part 1: 70%  
+
+ 
