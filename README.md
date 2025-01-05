@@ -1045,3 +1045,36 @@ Until I realised I could edit the style element inside javascript, therefore upo
 With this, some CSS transition to smoothen the grabbing effect (and the side effect of grabbing which moves other divs adjusting to their new position), and z-index manipulation to ensure the dragged item is on the front layer, I completed my task and closed the issue via the github commit #.  
  
 ------------ 
+
+--- Day 72 ---  
+2025-01-05
+
+Today was a hard day.  Lack of sleep, topped with TotM pains throughout.  
+
+I spent perhaps too much time struggling with my project today - every time I tried to solve a problem, it actually caused more side effects.  I ended up going down too many rabbit holes for various attempts to create functionality and fluidity.  
+After some struggles and then some, I settled with some functionality where I could drag and drop the instrument box into the input text field and it appropriately updated the box with the textContent, and then turning off the listening for any following drop events,  
+with the caveat that when letting go of the dragging div, the object remains on my cursor until a secondary click action occurred.  This also came with further issues, where the div box would just awkwardly remain where I dropped it on the web page.  
+I had to make a decision to attempt to clear this up, however I could not find a clean solution with the options I had trailed with.  I used remove() but it is understandably an aggressive dom solution, which means the box is then off the board until the page is refreshed.  
+I tried grabbing positions and then using them to update the box upon mouse up, however they did not travel back to their og locations with the following code:  
+
+    //with supporting code for every populated element
+    let fullPosition = dragElement.getBoundingClientRect();
+    let ogXPos = fullPosition.left;
+    let ogYPos = fullPosition.right; 
+
+    //to trigger when the mouse up event was activated
+    dragElement.style.left = ogXPos + 'px';
+    dragElement.style.right = ogYPos + 'px';
+
+Evntually, I settled with using the cloning method. However, in my solution this still only allows the draggable process to occur on each instrument box once, but at least 'returns' (is replaced) to the original position:
+     
+    //with supporting code for every populated element
+    let dragElementClone = dragElement.cloneNode(true);
+
+    //to trigger when the mouse up event was activated
+    dragElement.parentNode.replaceChild(dragElementClone, dragElement);
+
+I'm starting to feel a bit pressured, as this is the project I intended to show to my mentor next week, and I was expecting to be further along than I am.  But I need to realise that this is part of the learning process, I will encounter these struggles, and   
+being brave to showcase even unfinished/unoptimised/broken work is still worth doing.
+
+------------ 
