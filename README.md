@@ -1074,7 +1074,7 @@ Evntually, I settled with using the cloning method. However, in my solution this
     //to trigger when the mouse up event was activated
     dragElement.parentNode.replaceChild(dragElementClone, dragElement);
 
-I'm starting to feel a bit pressured, as this is the project I intended to show to my mentor next week, and I was expecting to be further along than I am.  But I need to realise that this is part of the learning process, I will encounter these struggles, and   
+I'm starting to feel a bit pressured, as this is the project I intend to show to my mentor next week, and I was expecting to be further along than I am.  But I need to realise that this is part of the learning process, I will encounter these struggles, and   
 being brave to showcase even unfinished/unoptimised/broken work is still worth doing.
 
 ------------ 
