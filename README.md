@@ -1078,3 +1078,11 @@ I'm starting to feel a bit pressured, as this is the project I intend to show to
 being brave to showcase even unfinished/unoptimised/broken work is still worth doing.
 
 ------------ 
+
+--- Day 73 ---  
+2025-01-06
+
+Today was a welcome return to SoC!  
+
+We spent the majority of the day recapping on Express with an exercise fixing a Fullstack application; starting from the back end.  We made good progress and completed 3/5 core tasks.  
+I then spent the evening focusing on the prep work; watching many videos on the fundamentals of DBMS, and in particular, SQL queries.    
