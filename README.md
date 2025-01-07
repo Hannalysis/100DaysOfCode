@@ -1086,3 +1086,15 @@ Today was a welcome return to SoC!
 
 We spent the majority of the day recapping on Express with an exercise fixing a Fullstack application; starting from the back end.  We made good progress and completed 3/5 core tasks.  
 I then spent the evening focusing on the prep work; watching many videos on the fundamentals of DBMS, and in particular, SQL queries.    
+
+------------ 
+
+--- Day 74 ---  
+2025-01-07
+
+Today was another full-on day at the bootcamp, and after!  
+
+Continuation of the basics of SQL, with two workshops learning how to action multiple different query types: SELECT, FROM, AS, WHERE, LIMIT, OFFSET, CREATE TABLE, DROP, JOIN (INNER JOIN, OUTER JOIN, LEFT JOIN, RIGHT JOIN, FULL JOIN) etc.  
+The evening session was further prep and recap. We also had to create our own sql database server in Render, and then install an open source management tool to test our database server; pgAdmin.  
+
+------------ 
