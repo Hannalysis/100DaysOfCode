@@ -1098,3 +1098,13 @@ Continuation of the basics of SQL, with two workshops learning how to action mul
 The evening session was further prep and recap. We also had to create our own sql database server in Render, and then install an open source management tool to test our database server; pgAdmin.  
 
 ------------ 
+
+--- Day 75 ---  
+2025-01-08
+
+Another day at Bootcamp - time for more focus on SQL queries!  
+
+Today we started with a murder mystery exercise that required executing multiple different SQL queries, and I can say that our team managed to work out who the brains behind the murder was :)  
+We spent the afternoon on a workshop where we learnt about storing environment variables (with the aid of dotenv) and also marrying node.js with the sql package to use queries inside javascript to make requests with express.  
+
+------------ 
