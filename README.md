@@ -1108,3 +1108,8 @@ Today we started with a murder mystery exercise that required executing multiple
 We spent the afternoon on a workshop where we learnt about storing environment variables (with the aid of dotenv) and also marrying node.js with the sql package to use queries inside javascript to make requests with express.  
 
 ------------ 
+
+--- Day 76 ---  
+2025-01-09  
+
+Today was our weekly hackathon day! Will update with more tomorrow.  
