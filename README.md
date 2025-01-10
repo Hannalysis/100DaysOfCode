@@ -1112,4 +1112,17 @@ We spent the afternoon on a workshop where we learnt about storing environment v
 --- Day 76 ---  
 2025-01-09  
 
-Today was our weekly hackathon day! Will update with more tomorrow.  
+Today was our weekly hackathon day! We started working through initialising our project, and initialising the database using Postgres - once we had established what datasets we wanted to create and the relationships between both tables (ensuring PKs and at least one FK).  
+Once we were able to populate our database (served with Render) we planned our API and express interactions ready for tomorrow morning.  
+
+------------ 
+
+--- Day 77 ---  
+2025-01-09  
+
+Today was finishing up our hackathon, and presentation day!  
+
+We managed to write successful RESTful Get (SELECT) and Post (INSERT INTO) API requests, with the appropriate status code responses for each table typing.  
+After the day, I spent the evening finishing up the post day tasks; ready for the weekend prep work, and hopefully more work on my own project.  
+
+------------ 
