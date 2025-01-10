@@ -1118,7 +1118,7 @@ Once we were able to populate our database (served with Render) we planned our A
 ------------ 
 
 --- Day 77 ---  
-2025-01-09  
+2025-01-10  
 
 Today was finishing up our hackathon, and presentation day!  
 
