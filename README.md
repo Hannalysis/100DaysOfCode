@@ -1126,3 +1126,16 @@ We managed to write successful RESTful Get (SELECT) and Post (INSERT INTO) API r
 After the day, I spent the evening finishing up the post day tasks; ready for the weekend prep work, and hopefully more work on my own project.  
 
 ------------ 
+
+--- Day 78 ---  
+2025-01-11  
+
+Today I started with the weekend bootcamp prep work - this is focusing on learning to utilise Github's Copilot LLM.  
+
+With this repo, [https://github.com/Hannalysis/skills-copilot-codespaces-vscode] I managed to grab a basic understanding and what settings I should toggle for a less intrusive experience (especially whilst I'm still in the syntax learning process) however, for some reason this particular tutorial focused on the online codespace in Github,  
+which meant that I was completely unable to utilise the Github Copilot Suggestions panel, and this could not progress past Step 3.  
+  
+I tried allowing all third-party cookies to access Github.com on my main browser, and toggling on the "Suggestions matching public code", to no avail.  It does work on my local  
+VS Code so I'm going to spend some time utilising this tool against personal projects and exercises locally to improve approaching Copilot's assistance.  
+
+------------ 
