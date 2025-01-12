@@ -1137,4 +1137,13 @@ With this repo, [https://github.com/Hannalysis/skills-copilot-codespaces-vscode]
 I tried allowing all third-party cookies to access Github.com on my main browser, and toggling on the "Suggestions matching public code", to no avail.  
 It does work on my local VS Code so I'm going to spend some time utilising this tool against personal projects and exercises locally to improve approaching Copilot's assistance.  
 
+I then finished off my day with a pomodoro in the Javascript Syntax I unit inside Codecademy.  
+
 ------------ 
+
+--- Day 79 ---  
+2025-01-12  
+
+I started off my day with a pomodoro to finally complete the Javascript Syntax I unit inside Codecademy.  
+
+ 
