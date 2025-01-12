@@ -1144,6 +1144,10 @@ I then finished off my day with a pomodoro in the Javascript Syntax I unit insid
 --- Day 79 ---  
 2025-01-12  
 
-I started off my day with a pomodoro to finally complete the Javascript Syntax I unit inside Codecademy.  
+I started off my day with a pomodoro to finally complete the Javascript Syntax I unit inside Codecademy (despite the website not tracking it correctly today!).  
 
- 
+I've not been feling very well today, so writing code for my personal project was a bit of a struggle. I did manage to add the appropriate EventListener to remove a highlighted InputField div onmouseleave.  
+As I made PH static html input fields, I struggled to track their input values, once the draggable item had been dropped. My temp solution for now, was to push that value from inside the functionality during the drop event, into an array accessible in global scope.  
+The issue with this solution is that the data will likey not match up visually if the user drops the instrument selection out of the sequence order (from top to bottom).  
+
+------------ 
