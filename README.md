@@ -1151,3 +1151,13 @@ As I made PH static html input fields, I struggled to track their input values, 
 The issue with this solution is that the data will likey not match up visually if the user drops the instrument selection out of the sequence order (from top to bottom).  
 
 ------------ 
+
+--- Day 80 ---  
+2025-01-13 
+
+I really did not feel well today.  But after a morning resting, I got back to the learning to catch-up on what I missed on at bootcamp - learning to use Vitest.  
+
+Using this repo as an introduction: [https://github.com/SchoolOfCode/week-6-unit-testing-introduction-mac-10/tree/hw], I learnt how to setup execute unit tests, including when to check for errors ie when an invalid input is utilised.  
+I also learnt the differents between the main two Test Runners (Jest and Vitest).  
+
+------------ 
