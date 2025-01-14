@@ -1161,3 +1161,12 @@ Using this repo as an introduction: [https://github.com/SchoolOfCode/week-6-unit
 I also learnt the differents between the main two Test Runners (Jest and Vitest).  
 
 ------------ 
+
+--- Day 81 ---  
+2025-01-14 
+
+Today I felt a bit better than yesterday, took it easy but focused on learning about TDD (Test Driven Development) and utilised it in today's workshop with my fellow peer.  
+  
+After the day at bootcamp, the prep work task focused on the 3 different types of Testing Strategies: Equivalence Partitioning, Boundary Value Analysis & Decision Tables.
+
+------------ 
