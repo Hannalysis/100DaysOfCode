@@ -1170,3 +1170,15 @@ Today I felt a bit better than yesterday, took it easy but focused on learning a
 After the day at bootcamp, the prep work task focused on the 3 different types of Testing Strategies: Equivalence Partitioning, Boundary Value Analysis & Decision Tables.
 
 ------------ 
+
+--- Day 82 ---  
+2025-01-15 
+
+Today I took a bit of a downslide slide, and it's my long day at bootcamp, so I just had to pace myself.  
+
+Today we learnt a new tool: Playwright.  At first glance, it reminded me a module I've worked with in Python earlier - Selenium. However, oh boy the power of this module though!  
+One very welcome addition from the get go is the built-in auto wait and auto retry, and the Trace Viewer to scrub through the actions automated by the test.  
+
+So we spent the afternoon working through a lenghty workshop, and almost completed it.  We must have done well on it as we got called up to demonstrate our findings on the later tasks at the end of the day.  
+
+------------ 
