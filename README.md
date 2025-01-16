@@ -1182,3 +1182,8 @@ One very welcome addition from the get go is the built-in auto wait and auto ret
 So we spent the afternoon working through a lenghty workshop, and almost completed it.  We must have done well on it as we got called up to demonstrate our findings on the later tasks at the end of the day.  
 
 ------------ 
+
+--- Day 83 ---  
+2025-01-16
+
+Hackathon day! Will update more tomorrow.  
