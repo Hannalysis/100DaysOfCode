@@ -1186,4 +1186,11 @@ So we spent the afternoon working through a lenghty workshop, and almost complet
 --- Day 83 ---  
 2025-01-16
 
-Hackathon day! Will update more tomorrow.  
+Hackathon day! Will update more on next commit.  
+
+------------ 
+
+--- Day 84 ---  
+2025-01-17
+
+Still feeling drained, managed to get through the presentation today for the Hackathon mind! Will update more tomorrow.   
