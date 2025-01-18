@@ -1187,6 +1187,7 @@ So we spent the afternoon working through a lenghty workshop, and almost complet
 2025-01-16
 
 Hackathon day! Today, we were tasked to write katas and complement them with appropriate testing requirements.  
+  
 It was great to use the Testing Strategies, Boundary Value Analysis & Decision tables to help manage what tests I would require for my two katas, damageBuff and teamWeapon.  
 This is also the first project where I had to create my first custom markdown which included appropriate planning & table documentation https://github.com/SchoolOfCode/week-6-hackathon-Hannalysis/blob/main/README.md  
 
@@ -1205,3 +1206,6 @@ I wrapped up the day by looking into an API testing exercise with vitest, and le
 2025-01-18
 
 Today I've started prep work for next week's bootcamp module focus on Web development.  
+
+This included watching a few videos surrounding CSS tips, and then I decided to complete the Grid Garden mini-game (from Day-50) in a pomodoro session.  This taught me the use cases of grid-template-columns & rows, and the grid-template shorthand, along with the  
+use cases of the fr units to fill the remaining space.  
