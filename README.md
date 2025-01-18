@@ -1157,7 +1157,7 @@ The issue with this solution is that the data will likey not match up visually i
 
 I really did not feel well today.  But after a morning resting, I got back to the learning to catch-up on what I missed on at bootcamp - learning to use Vitest.  
 
-Using this repo as an introduction: [https://github.com/SchoolOfCode/week-6-unit-testing-introduction-mac-10/tree/hw], I learnt how to setup execute unit tests, including when to check for errors ie when an invalid input is utilised.  
+Using this repo as an introduction: https://github.com/SchoolOfCode/week-6-unit-testing-introduction-mac-10/tree/hw, I learnt how to setup execute unit tests, including when to check for errors ie when an invalid input is utilised.  
 I also learnt the differents between the main two Test Runners (Jest and Vitest).  
 
 ------------ 
@@ -1186,11 +1186,22 @@ So we spent the afternoon working through a lenghty workshop, and almost complet
 --- Day 83 ---  
 2025-01-16
 
-Hackathon day! Will update more on next commit.  
+Hackathon day! Today, we were tasked to write katas and complement them with appropriate testing requirements.  
+It was great to use the Testing Strategies, Boundary Value Analysis & Decision tables to help manage what tests I would require for my two katas, damageBuff and teamWeapon.  
+This is also the first project where I had to create my first custom markdown which included appropriate planning & table documentation https://github.com/SchoolOfCode/week-6-hackathon-Hannalysis/blob/main/README.md  
 
 ------------ 
 
 --- Day 84 ---  
 2025-01-17
 
-Still feeling drained, managed to get through the presentation today for the Hackathon mind! Will update more tomorrow.   
+Still feeling drained, but managed to get through the presentation today for the Hackathon mind!  
+
+I wrapped up the day by looking into an API testing exercise with vitest, and learnt how to use expect to check whether content is being recieved in the appropriate type (ie array or object).  
+
+------------ 
+
+--- Day 85 ---  
+2025-01-18
+
+Today I've started prep work for next week's bootcamp module focus on Web development.  
