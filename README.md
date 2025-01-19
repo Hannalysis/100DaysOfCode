@@ -1220,7 +1220,7 @@ Today I continued my prep work, and focused on my first Front End Mentor project
 It took me a good couple of hours, mostly because I wanted to try and keep the CSS clean as possible - and I wanted to document any major learnings and changes I made to help me for future reference.     
 I am overall very pleased with the results, and have published my finished work on a github page: https://hannalysis.github.io/Front-End-Mentor-Product-preview-card-component/  
 
-I already feel like I have come a long way since my initial struggles with CSS (back on Day 1 of #100Days of Code), and also, I have seen improves since my last CSS challenge I did in The Odin Project 3 months ago,    
+I already feel like I have come a long way since my initial struggles with CSS (back on Day 1 of #100Days of Code), and also, I have seen improvements since my last CSS challenge I did in The Odin Project 3 months ago,    
 located here for a comparison: https://hannalysis.github.io/odin-landing-page/ reminder: I should update this soon when I have the time!    
 
 ------------ 
