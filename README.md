@@ -1209,3 +1209,18 @@ Today I've started prep work for next week's bootcamp module focus on Web develo
 
 This included watching a few videos surrounding CSS tips, and then I decided to complete the Grid Garden mini-game (from Day-50) in a pomodoro session.  This taught me the use cases of grid-template-columns & rows, and the grid-template shorthand, along with the  
 use cases of the fr units to fill the remaining space.  
+
+------------ 
+
+--- Day 86 ---  
+2025-01-19
+
+Today I continued my prep work, and focused on my first Front End Mentor project - "Product preview card component".  
+
+It took me a good couple of hours, mostly because I wanted to try and keep the CSS clean as possible - and I wanted to document any major learnings and changes I made to help me for future reference.     
+I am overall very pleased with the results, and have published my finished work on a github page: https://hannalysis.github.io/Front-End-Mentor-Product-preview-card-component/  
+
+I already feel like I have come a long way since my initial struggles with CSS (back on Day 1 of #100Days of Code), and also, I have seen improves since my last CSS challenge I did in The Odin Project 3 months ago,    
+located here for a comparison: https://hannalysis.github.io/odin-landing-page/ reminder: I should update this soon when I have the time!    
+
+------------ 
