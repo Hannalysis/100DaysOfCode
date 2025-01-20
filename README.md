@@ -1224,3 +1224,12 @@ I already feel like I have come a long way since my initial struggles with CSS (
 located here for a comparison: https://hannalysis.github.io/odin-landing-page/ reminder: I should update this soon when I have the time!    
 
 ------------ 
+
+--- Day 87 ---  
+2025-01-20
+
+Today we started our adventure into Web Development at bootcamp; aka our introduction to the React library!  
+
+I almost completed two workshops around react: First one, more focused on the original React syntax inside a html document, and converting it to jsx; and the second one, learning how to utilise it in an app environment using Javascript.  
+
+------------ 
