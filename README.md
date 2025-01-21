@@ -1233,3 +1233,13 @@ Today we started our adventure into Web Development at bootcamp; aka our introdu
 I almost completed two workshops around react: First one, more focused on the original React syntax inside a html document, and converting it to jsx; and the second one, learning how to utilise it in an app environment using Javascript.  
 
 ------------ 
+
+--- Day 88 ---  
+2025-01-21
+
+Today was another lecture and documentation heavy discussion on React! I spent time with my team mates checking each other's understanding of many different concepts, including:  
+Writing markup with JSX , conditional rendering , rendering lists, responding to events and updating the screen. Followed by prep work that included the introduction to Hooks, and how to apply functions or anonymous function calls inside the setState method.  
+
+I finished up the day by updating my README file inside the "Product preview card component" project, and realised I had forgotten to supply the active states, so committed those changes as well. 
+
+------------ 
