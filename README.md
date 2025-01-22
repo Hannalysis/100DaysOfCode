@@ -1243,3 +1243,12 @@ Writing markup with JSX , conditional rendering , rendering lists, responding to
 I finished up the day by updating my README file inside the "Product preview card component" project, and realised I had forgotten to supply the active states, so committed those changes as well. 
 
 ------------ 
+
+--- Day 89 ---  
+2025-01-22
+
+Today at bootcamp my teammates and I worked on our first react app with vite - to implement a nought and crosses game.  
+
+We made sure we spent enough time planning, before we initialised our project, ensured our hierarchy of components and their relative folders were setup before we delved into our jsx files.  
+
+------------ 
