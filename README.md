@@ -1252,3 +1252,8 @@ Today at bootcamp my teammates and I worked on our first react app with vite - t
 We made sure we spent enough time planning, before we initialised our project, ensured our hierarchy of components and their relative folders were setup before we delved into our jsx files.  
 
 ------------ 
+
+--- Day 90 ---  
+2025-01-23
+
+Hackathon! Will update tomorrow. 
