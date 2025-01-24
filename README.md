@@ -1257,3 +1257,10 @@ We made sure we spent enough time planning, before we initialised our project, e
 2025-01-23
 
 Hackathon! Will update tomorrow. 
+
+------------ 
+
+--- Day 91 ---  
+2025-01-24
+
+Hackathon presentation. Will update tomorrow. 
