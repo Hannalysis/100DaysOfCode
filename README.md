@@ -1306,7 +1306,7 @@ I learnt that a @keyframe allows you to create an animation by defining styles a
 
 After finishing up with the weekly wrap up from week one of our focus on React, I decided to revisit and attempt to solidify my React learnings by taking a short React course in Scrimba.  
 
-I decided to pick the intermediate challenge "Build a Memory Game", which is about 4 videos of tutorials and interactive exercises on a web integrated IDE.  
+I decided to pick the intermediate challenge "Build a Memory Game", which is about 4+ hours of tutorials and interactive exercises on a web integrated IDE.  
 I completed the first 1/4 today; which actually focused heavily on the gaming logic, aka javascript functions, but it was still welcome as it gave me an opportunity to practice using map (getDataSlice), looping to store unique numbers inside an array (getRandomIndicies), and  
 learning that the Fisher-Yates algorithm is the array shuffling method (which is super handy to know for future projects I want to create!) 
 
