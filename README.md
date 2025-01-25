@@ -1263,4 +1263,72 @@ Hackathon! Will update tomorrow.
 --- Day 91 ---  
 2025-01-24
 
-Hackathon presentation. Will update tomorrow. 
+Today was the Hackathon presentation. 
+
+We focused the morning on the CSS of our React Flashcards app, as the finishing touches before sorting out our presentation content.  
+I learnt that a @keyframe allows you to create an animation by defining styles at certain points in time during the sequence.
+
+    animation: burnEffect 1.5s infinite alternate; /* Animation for burning effect */
+    
+    @keyframes burnEffect {
+      0% {
+          text-shadow:
+              0 0 5px rgba(37, 68, 65, 0.8),
+              0 0 10px rgba(37, 68, 65, 0.8),
+              0 0 15px rgba(37, 68, 65, 0.7),
+              0 0 20px rgba(96, 169, 162, 1),
+              0 0 25px rgba(96, 169, 162, 0.8);
+          color: #254441;
+      }
+      50% {
+          text-shadow:
+              0 0 5px rgba(37, 68, 65, 0.9),
+              0 0 10px rgba(37, 68, 65, 0.9),
+              0 0 15px rgba(37, 68, 65, 0.8),
+              0 0 25px rgba(96, 169, 162, 1),
+              0 0 30px rgba(96, 169, 162, 0.9);
+          color: #60a9a2;
+      }
+      100% {
+          text-shadow:
+              0 0 5px rgba(37, 68, 65, 0.8),
+              0 0 15px rgba(37, 68, 65, 0.8),
+              0 0 20px rgba(96, 169, 162, 1),
+              0 0 25px rgba(96, 169, 162, 0.9),
+              0 0 30px rgba(96, 169, 162, 0.8);
+          color: #254441;
+      }
+    }
+------------ 
+
+--- Day 92 ---  
+2025-01-25
+
+After finishing up with the weekly wrap up from week one of our focus on React, I decided to revisit and attempt to solidify my React learnings by taking a short React course in Scrimba.  
+
+I decided to pick the intermediate challenge "Build a Memory Game", which is about 4 videos of tutorials and interactive exercises on a web integrated IDE.  
+I completed the first 1/4 today; which actually focused heavily on the gaming logic, aka javascript functions, but it was still welcome as it gave me an opportunity to practice using map (getDataSlice), looping to store unique numbers inside an array (getRandomIndicies), and  
+learning that the Fisher-Yates algorithm is the array shuffling method (which is super handy to know for future projects I want to create!) 
+
+    function getDataSlice(data) {
+        let randomIndices = getRandomIndices(data);
+        const dataSlice = randomIndices.map(index => data[index]);
+        return dataSlice;
+    }
+
+        function getRandomIndices(data) {
+        const randomIndicesArray = []
+        
+        for (let i = 0; i < 5; i++) {
+            const randomNum = Math.floor(Math.random() * data.length)
+            if (!randomIndicesArray.includes(randomNum)) {
+                randomIndicesArray.push(randomNum)
+            } else {
+                i--
+            }
+        }
+        
+        return randomIndicesArray
+    }
+
+------------ 
