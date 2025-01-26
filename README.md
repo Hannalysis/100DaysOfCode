@@ -1332,3 +1332,17 @@ learning that the Fisher-Yates algorithm is the array shuffling method (which is
     }
 
 ------------ 
+
+--- Day 93 ---  
+2025-01-26
+
+Today I decided to continue my learning journey inside Scrimba; by continuing the "Build a Memory Game" in React course.  
+
+We started to focus on the Core Game Functionality - and in particular the behaviour of selected cards.  
+
+This involved moving certain key values from an array of objects, stripped down to an index value and a name string, and passing it through from a component lower down the tree, up to its parent to utilise inside a function located there  
+(in this particular case, for the turn card function).  This was an area I really struggled to get the concept of, and visualise, so I spent a lot of time here, and I also got an explanation from a fellow software dev with experience in React to assist with the visual aid.  
+
+It was tempting to try and get through this 'short course' as quick as possible, but I decided to leave it at 33% for now, rest and reflect on the learnings, and come back to it to continue it next as soon as I'm able to.  
+
+------------ 
