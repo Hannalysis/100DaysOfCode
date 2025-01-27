@@ -1256,7 +1256,8 @@ We made sure we spent enough time planning, before we initialised our project, e
 --- Day 90 ---  
 2025-01-23
 
-Hackathon! Will update tomorrow. 
+Hackathon! We spent today getting our planning, initial React project initialised, and the static wireframe up and running.  
+We then spent an unhealthy amount of time trying to get the card flip working, so we had to go ahead and do some research before reconvening our findings and overall solution.  
 
 ------------ 
 
@@ -1346,3 +1347,42 @@ This involved moving certain key values from an array of objects, stripped down 
 It was tempting to try and get through this 'short course' as quick as possible, but I decided to leave it at 33% for now, rest and reflect on the learnings, and come back to it to continue it next as soon as I'm able to.  
 
 ------------ 
+
+--- Day 94 ---  
+2025-01-27
+
+Today at bootcamp we focused on learning the importance of utilising methods that do not mutate the original data.  
+
+So the focus was heavily on understanding spreading, and either removing, replacing or changing a value inside an object or array, without editing the original input.  
+Our team did really well and we got to the last exercise, which I managed to complete in my own time:
+
+    // Immutably update the array as well as the object at the given position/index within the array, so that the value under the "completed" property becomes the opposite of what it was.
+    // Any other properties in the object should be maintained.
+    
+    export function toggleListItemCompleted(array, index) {
+        let newArray = [
+            ...array.slice(0, index),  
+            {
+                ...array[index], 
+                completed: !array[index].completed
+            },
+            ...array.slice(index + 1)
+        ];
+        return newArray;
+    }
+
+and I'm also proud of aiding with this particular solution:
+
+    // Immutably update the object so that the value under the "needsACupOfTea" property becomes the opposite of what it was.
+    // Any other properties in the object should be maintained.
+    
+    export function toggleTeaStatus(object) {
+        let newObject = {
+            ...object,
+            needsACupOfTea: !object.needsACupOfTea,
+        }
+        return newObject
+    }
+
+------------ 
+  
