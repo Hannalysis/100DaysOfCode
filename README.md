@@ -1394,6 +1394,7 @@ Most documentation avilable is for the similar alternative testing package, jest
 
 Our team were then tasked to investigate nested CSS, and the differences between native nested CSS and SASS - for our presentation tomorrow morning. 
   
-After the prep work, I focused on more of my scrimba course, utilising more useEffect methods, and revisiting our hackathon project from Friday to revise on basic React.  
+After the prep work, I focused on more of my scrimba course, utilising more useEffect methods.  
+I wrapped up the evening by forking our hackathon on Friday for my React practice, to implement the react-flip-card library onto the Flashcard component, and then refactor that code.  
 
 ------------ 
