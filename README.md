@@ -1385,4 +1385,15 @@ and I'm also proud of aiding with this particular solution:
     }
 
 ------------ 
+
+--- Day 95 ---  
+2025-01-28
+
+Today at bootcamp we were tasked with a workshop that gave us the opportunity to investigate documentation and applying our findings in order to create test cases in react with the react-testing library with vitest.  
+Most documentation avilable is for the similar alternative testing package, jest, so we had to established the nuances between the two.  
+
+Our team were then tasked to investigate nested CSS, and the differences between native nested CSS and SASS - for our presentation tomorrow morning. 
   
+After the prep work, I focused on more of my scrimba course, utilising more useEffect methods, and revisiting our hackathon project from Friday to revise on basic React.  
+
+------------ 
