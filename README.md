@@ -1398,3 +1398,14 @@ After the prep work, I focused on more of my scrimba course, utilising more useE
 I wrapped up the evening by forking our hackathon on Friday for my React practice, to implement the react-flip-card library onto the Flashcard component, and then refactor that code.  
 
 ------------ 
+
+--- Day 96 ---  
+2025-01-29
+
+Today we presented our presentation on native CSS & SASS nesting.  We also were introduced to the storybook frontend UI workshop library, which weaved nicely after a talk that was focused on user-centred design.  
+We finished off the session with an investigation researching into useReducer, and when to utilise it over useState hooks.  
+
+After prep, I finished the day off with continuing React practice, and starting obtaining functioning with form submission (currently, data is stored in a variable and output is printed to the console).  
+My next focus on this, is to refactor the code, and move some data and states up the component tree to allow full functioning form capabilities.  
+
+------------ 
