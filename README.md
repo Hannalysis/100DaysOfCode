@@ -1409,3 +1409,8 @@ After prep, I finished the day off with continuing React practice; by obtaining 
 My next focus on this, is to refactor the code, and move some data and states up the component tree to allow full functioning form capabilities.  
 
 ------------ 
+
+--- Day 97 ---  
+2025-01-30
+
+Hackathon today! Will update tomorrow.
