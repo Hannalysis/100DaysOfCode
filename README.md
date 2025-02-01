@@ -1414,3 +1414,12 @@ My next focus on this, is to refactor the code, and move some data and states up
 2025-01-30
 
 Hackathon today! Will update tomorrow.
+
+------------ 
+
+--- Day 97 ---  
+2025-01-31
+
+Hackathon Presentation today! Will update later!
+
+------------ 
