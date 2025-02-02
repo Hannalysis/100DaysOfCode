@@ -1421,10 +1421,12 @@ The incorrect answers would still be generated from the answer array, but exclud
 --- Day 98 ---  
 2025-01-31
 
-Hackathon Presentation today! 
-
+Hackathon Presentation today!  
+  
 We focused on small updates to our app as time is short in the morning.  We added a running score, and very basic Playwright testing (as we realised, due to the random nature of our image and button functionality, there would be additional logic to create a useful test  
-that we just did not have ample time to explore with).  We also added a owl hooting SFX to trigger when the user selected the correct bird.  However, the original SFX itself was too long, and clipped at the end of the track - so I put my audio editing skills to use;  
+that we just did not have ample time to explore with).  
+  
+We also added a owl hooting SFX to trigger when the user selected the correct bird. However, the original SFX itself was too long, and clipped at the end of the track - so I put my audio editing skills to use;  
 trimmed down the SFX at the first hoot ending phrase, and a gentle fade out on the tail for clarity, and replaced the og file for our new edited version, and pushed up within the space of 5 mins.  
 
 ------------ 
@@ -1437,7 +1439,7 @@ After finishing up the module from the bootcamp for this week, I wanted to take 
 I decided to branch off on our hackathon project, to fix a screen sizing issue that was occurring on one of my teammates' monitor.  With more freedom on the jsx files, I was able to manage the container layout, and centre everything appropriately, to give  
 the header more space to move down (as it was clipping off on their screen). This should fix the issue, but it also made me realise I could add a media query so if the height was below a certain sizing on the viewport, it would disappear, giving the rest of our app  
 more breathing space.  
-
+  
 After pushing that branch up to the remote repo; I realised I'd like to have those changes myself, so I forked the repo with that unmerged branch.  Which made me realise, I had no idea how to merge it manually, as the github website does not prompt a pull request on a forked repo  
 with an unmerged branch. So I had to clone this forked repo, checkout the branch and ensure I had those changes locally, checkout main again, and then use the 'git merge branchname' command, and then push those changes back to the remote repo on main.  
 
