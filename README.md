@@ -12,7 +12,7 @@ So today I focused on the materials on The Odin Project, learning about Flexbox.
 I wanted to improve my knowledge by starting to go through the exercises for flex under the foundations folder within the css-exercises provided.
 Today I completed exercises _01-flex-center_ & _02-flex-header_.
 
-I struggled a bit with the 2nd exercise; I did a fair amount of trial and erroring many flex options inside different containers, and using the DevTools to inspect to try and figure out what styles were being used or overwritten.
+I struggled a bit with the 2nd exercise; I did a fair amount of trial and error for many flex options inside different containers, and using the DevTools to inspect to try and figure out what styles were being used or overwritten.
 
 ------------
 
@@ -50,7 +50,7 @@ It took me a while to realise I needed to make seperate containers for each item
  difficulty with the footer positioning until I realised 
  that adding the rule _justify-content: space-between_ in the main container solved that issue.
 
- I then added the GUI to the python Quiz App I was working on yesterday using python's tkinter. This code has been placed into a seperate file under it's own class to 
+ I then added the GUI to the python Quiz App I was working on yesterday using python's tkinter. This code has been placed into a separate file under it's own class to 
  initialise the GUI for the app, and the class is imported back into the main file.
 
  ------------
@@ -60,7 +60,7 @@ It took me a while to realise I needed to make seperate containers for each item
 
 Today I completed the last exercise inside the flex folder of The Odin Project's css-exercises; _07-flex-layout-2_. I found it challenging and it took me a good while to bring the page to the desired solution's state.
 
-I got very caught up in trying to display the boxes of text so they aligned with the same gap down the centre of the main content's container. Once I had realised the individual text boxes all required a massive width extention, they all lined up perfectly.
+I got very caught up in trying to display the boxes of text so they aligned with the same gap down the centre of the main content's container. Once I had realised the individual text boxes all required a massive width extension, they all lined up perfectly.
 I also had a little trouble getting the sidebar to actually take up the entire space on the left hand side (minus header and footer); I found the solution was creating a container for both the sidebar and the content on the right to align with it, and used 
 the flex-grow rule to push it and surround the main page, stopping at the footer.
 
@@ -88,7 +88,7 @@ the flex-grow rule to push it and surround the main page, stopping at the footer
 
  I started the day with reading up on API calls to get a better overall understanding (with python). As there was little actual coding on my part, I decided to come back to my CSS learning via The Odin Project site curriculum; meaning, we're onto the CSS project!
 
- Which, means practicing the CSS will come later as I needed to create the index.html file first, from scratch. So,  I spent the rest of my time populating the content in HTML, including high-level containers and a few mock-up images I made quickly in MS paint. This part has been pushed to my newly made repository (odin-landing-page).
+ Which means practicing the CSS will come later as I needed to create the index.html file first, from scratch. So,  I spent the rest of my time populating the content in HTML, including high-level containers and a few mock-up images I made quickly in MS paint. This part has been pushed to my newly made repository (odin-landing-page).
 
   ------------
 
@@ -97,10 +97,10 @@ the flex-grow rule to push it and surround the main page, stopping at the footer
  
 Today I decided to continue the odin-landing-page CSS project, by focusing on the CSS. 
 
-I prioitised adding all the font rules, colours and backgrounds (while adding a couple of extra containers along the way), and pushing those changes, before heading into the flexing shenanigans.
+I prioritised adding all the font rules, colours and backgrounds (while adding a couple of extra containers along the way), and pushing those changes, before heading into the flexing shenanigans.
 
 I started with what I thought was the easiest part - sorting out the 4 images with text in the middle. I managed to get them aligned appropriately, but I do need to sort out the overlapping text. I moved onto the quote section and got that in a reasonable space as it was mostly text align and background padding.
-The call to action section, is causing me a little bit of formatting issues, however I've managed to centre it, place it 2 out of 3 elements inside a box with curved corners; and will continue tackling this section next time. 
+The call to action section is causing me a little bit of formatting issues, however I've managed to centre it, place it 2 out of 3 elements inside a box with curved corners; and will continue tackling this section next time. 
 
   ------------
 
@@ -123,7 +123,7 @@ multiple occasions which container had what in it, and whether I had worded it c
  --- Day 10 ---   
   2024-10-26
 
- I wanted a well-earnt break from CSS, so I started today with reading and watching some python tutorials. My first takeaway was knowing and understanding the 4 different types of API calls/HTTP request types:
+ I wanted a well-earned break from CSS, so I started today with reading and watching some python tutorials. My first takeaway was knowing and understanding the 4 different types of API calls/HTTP request types:
 
 Get - _requests.get()_ Ask --> Response
 
@@ -142,7 +142,7 @@ I then finished my day by getting more familiar with Javascript, and completed t
  --- Day 11 ---   
   2024-10-27
 
-  Today I focused on my python course in Udemy. The section I'm now on is actually focused on web development so ended up being a useful test my knowledge day (and ironically, no python at all!).
+  Today I focused on my python course in Udemy. The section I'm now on is actually focused on web development so ended up being a useful test of my knowledge day (and ironically, no python at all!).
 
   The first project was a revisit (for me) to basic HTML (similar to the initial odin-recipes project). I did appreciate having a reason to add horizontal rule elements to this, as I had no yet found a reason to utilise one previously.
   I was also made aware of the 'vscode-icons' extension, which has made locating files more visually pleasing.
@@ -155,17 +155,17 @@ I then finished my day by getting more familiar with Javascript, and completed t
  --- Day 12 ---   
   2024-10-28
 
-  Alike yesterday, I continued with the web development section inside my python udemy course. Now we're moving onto CSS; a chance to revise, and learn something new.
+Like yesterday, I continued with the web development section inside my python udemy course. Now we're moving onto CSS; a chance to revise, and learn something new.
 
-  I started with a basic website project that utilised styling with just ids, classes and element selectors. I did also learn of a new selector type, called attribute - using square brackets, can select everything with the same attribute type, specific setting or, targetting items without that attribute 
+I started with a basic website project that utilised styling with just ids, classes and element selectors. I did also learn of a new selector type, called attribute - using square brackets, can select everything with the same attribute type, specific setting or, targeting items without that attribute 
   (ie p[draggable = "false"]).
 
   Font size measurement reference:  
   Static sizing: 1px = 1/96 inch | 1pt = 1/72 inch  
   Relative sizing: 1em = 100% parent | 1rem = 100% root
 
-  In the second project (creating a web meme), I utilised my first custom font utilising fonts.google.com, and establishing a reference in html, using the preconnect relationship attributes, with a url link to the font in question.
-  This was also the first time I've really seen the advantages of using percentages of widths and margins to make aligning content more straightforward, along with using relative font sizing.
+In the second project (creating a web meme), I utilised my first custom font utilising fonts.google.com, and establishing a reference in html, using the preconnect relationship attributes, with a url link to the font in question.  
+This was also the first time I've really seen the advantages of using percentages of widths and margins to make aligning content more straightforward, along with using relative font sizing.  
 
   ------------
 
@@ -187,9 +187,9 @@ I then finished my day by getting more familiar with Javascript, and completed t
 
   Today I continued looking into the web scraping tools in python, and completed my own project - scraping the top 100 games of all time from empireonline, and printing out the list into a text document.
 
-  Overall the project went pretty smoothly; it took me a little while to figure out the list comprehenion I needed to remove the html tags from the original printout inside the terminal, mind. 
+  Overall the project went pretty smoothly; it took me a little while to figure out the list comprehension I needed to remove the html tags from the original printout inside the terminal, mind. 
   Once I had the list printed out with strings only, it was a matter of using the _reverse()_ function (so the listed printed from 1 instead of 100), and then using the _write()_ function in a for loop to place the items into a list with a new line (/n) spacing.
-  I had to make a condtional as the write command has multiple modes; one for making a new txt file, and one for editing it, so I made it so the write iteration only passed through the once, and then took the main loop code after (by using i increments).
+  I had to make a conditional as the write command has multiple modes; one for making a new txt file, and one for editing it, so I made it so the write iteration only passed through the once, and then took the main loop code after (by using i increments).
 
   ------------
 
@@ -198,8 +198,8 @@ I then finished my day by getting more familiar with Javascript, and completed t
 
   Today ended up being quite eventful, so I decided to continue with a bit of web scraping practice - this time, scraping the top 100 songs from a certain week in history.
 
-  This particular site was a little was a little difficult to read, as the class names are extremely long (and also contain all font elements as part of the class name). I also had to do multiple separate scrapes, one for tha songs, and another for the artists...minus the no 1 song for that week.
-  That was due to the fact that the no 1 song and artist name had their own class name, and visual representation on the site different (likely to make them stand out more).
+  This particular site was a little difficult to read, as the class names are extremely long (and also contain all font elements as part of the class name). I also had to do multiple separate scrapes, one for tha songs, and another for the artists...minus the no 1 song for that week.
+  That was due to the fact that the no 1 song and artist name had their own class name, and visual representation on the site was different (likely to make them stand out more).
 
   I then made two list comprehensions to clean the lists, then utilised the string _insert_ method to place the top artist and song as the first item in their respective lists. I hope to make the final touches of this project tomorrow.
 
@@ -212,8 +212,8 @@ I then finished my day by getting more familiar with Javascript, and completed t
 
   To give my script more use cases, I added an input function to ask the user to add any date in the format YYYY/MM/DD (including the '/' characters). To get the date in a compatible format to fit as part of the website link, it needed to go through a bit of a conversion process.
   
-  Firstly, I required that output to become a tuple - so I used the _map_ function, which encompassed an int conversion of the initial input variable (with a split to remove the '/'), all inside a tuple type conversion assigned to a new varaible.
-  Then I had to convert it into a new variable as a date object (with the _datetime_ module), and assigning the individiual elements of the tuple to it.
+  Firstly, I required that output to become a tuple - so I used the _map_ function, which encompassed an int conversion of the initial input variable (with a split to remove the '/'), all inside a tuple type conversion assigned to a new variable.
+  Then I had to convert it into a new variable as a date object (with the _datetime_ module), and assign the individual elements of the tuple to it.
   Finally, I inserted this new variable into my request string as an f string, replacing the part of the link where the date was being called.
 
   As a finishing touch, I converted the song and artist lists into one dictionary using the _dict_ and _zip_ methods, and using similar code as I did in day 14, looped through each item of the dictionary into a text tile. The filename also included the date variable from the input method (using another f string), for clarity. 
@@ -250,8 +250,8 @@ I then finished my day by getting more familiar with Javascript, and completed t
 Today I spent my time sorely on exercise 4 of the javascript-exercises; _04_removeFromArray_.
 
 I managed to make a function that allowed a singular numeral argument as the element that needs to be removed, however that answer was not scalable.
-Once I realised I required the ...args argument so the function could accept more optional arguments as input, is where my code got tricky (especially as I use utilising a loop for the item removal, and the splicing method, which ended up with multiple loops).
-After an embarassingly long amount of time trying to get all the tests to pass, I decided to check the solution. More javascript practice to follow.
+Once I realised I required the ...args argument so the function could accept more optional arguments as input, is where my code got tricky (especially as I used a loop for the item removal, and the splicing method, which ended up with multiple loops).
+After an embarrassingly long amount of time trying to get all the tests to pass, I decided to check the solution. More javascript practice to follow.
 
  ------------
 
@@ -356,7 +356,7 @@ Today I finished up my cookie clicker project.
 
 It came together quite quickly once I realised I could utilise the string replace method to remove the comma separator, and then convert that result into an integer. Therefore I was able to create a variable that located the current upgrade cost, 
 and converted it into an int that could be compared to the cookie funds we have to spare, and picked the most expensive upgrade it could afford. 
-I also placed the replace methods on the upgrade variables that do not initally require it, however if I wanted to expand the length of time I wanted the code to execute (ie 30 mins instead of 5) 
+I also placed the replace methods on the upgrade variables that do not initially require it, however if I wanted to expand the length of time I wanted the code to execute (ie 30 mins instead of 5) 
 then the code would still execute without once the smaller upgrades reached 4 digit figures.
 
 I finished up the day by looking at my next project inside The Odin Project Foundations course - the Etch a Sketch.
@@ -369,12 +369,12 @@ I got the repo made, documents created and ended with a small loop of code insid
 
 Today I continued my efforts on the Etch a Sketch project, and pushed my changes here: [odin-etch-a-sketch](https://github.com/Hannalysis/odin-etch-a-sketch)
 
-I improved my initial grid generation loop; rather than spitting out 16 boxes in a line, I madea a nested loop to generate 4 boxes inside another div, named row -
+I improved my initial grid generation loop; rather than spitting out 16 boxes in a line, I made a nested loop to generate 4 boxes inside another div, named row -
 which would also run 4 times in total for the 16x16 grid. I then made the rows flex to make the grid form appropriately, and added basic visuals to the boxes
 so they could be seen.
 
 I followed it up with the next step - adding colour trails to the boxes with hover and the _addEventLister_ function.
-I initially got it running by accessing the div elements...however I realised it was also targetting the row divs (visually would have been passable however I curved my box edges so it was obvious). It took a while to get the code running when I switched out div for class name, as the addEventListener 
+I initially got it running by accessing the div elements...however I realised it was also targeting the row divs (visually would have been passable however I curved my box edges so it was obvious). It took a while to get the code running when I switched out div for class name, as the addEventListener 
 refused to run against an HTML collection object. So I had to create an array to pass through each html item, and then code worked as intended!
 
 ------------
@@ -494,7 +494,7 @@ I started with fixing the bug I found yesterday. Using the _replace()_ function,
     cleanTargetDigit = targetDigit.replace(/<p>/g, "");
     screen.push(parseFloat(cleanTargetDigit));
 
-The above was enough to fix my bug, due to discovering that interestingly parseFloat manages to grab the float number from the left hand side of the string, and ignores the rest. 
+The above was enough to fix my bug, due to discovering that (interestingly) parseFloat manages to grab the float number from the left hand side of the string, and ignores the rest. 
 However, in case I wanted to take the clean String variable I decided to change it to the below statement, after realising you can make an or (|) statement inside the argument parameters:
 
     cleanTargetDigit = targetDigit.replace(/<\/p>|<p>/g, "");
@@ -513,7 +513,7 @@ the ongoing calculations to function as long as the current screen had an operat
 I also got bogged down too much into trying to find a method or a way to set a value using newReg with the operators I needed it to search for. After a much needed break, I finally managed to create a function using the _includes()_ method, and simply used the or comparison operators to iterate through them.
 This worked out well as I needed a way to flag the opposite functionality of no operators present (at the start of the calculate function(), so if '=' is selected with no operators, no calculations will occur). 
 
-Outside of making the calcuator less bug prone, I also added a couple of keyboard funcitonality buttons - clear on DELETE & Backspace, and = on ENTER (just realising...I pushed my commit msg saying that I'd assigned Backspace to ENTER!). I considered adding the same keyboard functionality to the digits and the operators
+Outside of making the calculator less bug prone, I also added a couple of keyboard functionality buttons - clear on DELETE & Backspace, and = on ENTER (just realising...I pushed my commit msg saying that I'd assigned Backspace to ENTER!). I considered adding the same keyboard functionality to the digits and the operators
 however due to how I'm populating the calculator and the EventListeners inside the calculator generator with DOM I would require many bespoke functions that almost mirror the click versions. So I'm postponing that for a later date, when I refactor my calculator to utilise a bespoke calc class.
 I also went against the extra credit task for disabling buttons, as I'd already done that off of my own back as my personal extra credit work on the odin-rock-paper-scissors project.
 
@@ -559,7 +559,7 @@ to pause the script to allow the webpage to load, before actioning the webdriver
 --- Day 41 ---   
 2024-11-26
 
-Feeling a bit better today, but I did spent a lot of time today finishing up todays work at bootcamp.
+Feeling a bit better today, but I did spend a lot of time today finishing up today's work at bootcamp.
 Finished up hacking an LLM task, and did many tough exercises about Git here: https://learngitbranching.js.org/
 
 Luckily my Python capstone project; Data Entry Automation was almost complete - I managed to write my loop to iterate through the 3 list types, to autofill out in the correct fields of the google form.
@@ -635,7 +635,7 @@ Second forked repro located here: https://github.com/SchoolOfCode/week-2-arrays-
 Today was an intense one; focusing on debugging exercises in Javascript utilising DevTools for the majority of the day.
 
 This was actioned via Team Programming, so we all gave our input and took turns driving on the debugging - it was a great experience and gave us all a better insight on how and when to debug, and when to take a step back in situations where we may have over-focused on an area  
-to re-evaluate the code and think the lines we may have overlooked originally.
+to re-evaluate the code and think of the lines we may have overlooked originally.
 
 In short, when in doubt use console.log to track your variables, input arguments, and what is returned from functions.
 
@@ -676,7 +676,7 @@ But outside of this minor edit, it was an intense day of planning, and helping m
 --- Day 49 ---  
 2024-12-06
 
-Today was the presentation of the hackathon day. Busy, tiring but rewarding - mostly due to the fact that we gave ourselves adequete time to prepare for the presentation (even had time for 3 rehearsals!). We did well!
+Today was the presentation of the hackathon day. Busy, tiring but rewarding - mostly due to the fact that we gave ourselves adequate time to prepare for the presentation (even had time for 3 rehearsals!). We did well!
 
 My main takeaway from a coding pov, is that I now know how to change the styling of the console inside DevTools - injecting CSS inside javascript console.logs, with %c and css properties stated as an additional optional argument.
 
@@ -699,7 +699,7 @@ After a break, I went through some CSS flex mini game called Flexbox Froggy: htt
 
 Today I wanted to see if I could slot in a bit of a mixture of tasks:
 
-I started with a recap of the DOM exercise, that I originally completed back in Day 20, in order to prep for next week's bootcamp module.
+I started with a recap of the DOM exercise that I originally completed back in Day 20, in order to prep for next week's bootcamp module.
 
 I continued by looking into a learning material my mentor recommended: https://www.frontendmentor.io/challenges?type=free so looking at that, I decided to start adding some better container formatting, flex and image tidying up on my https://github.com/Hannalysis/odin-recipes
 project. I decided to use a couple of pomodoros only, to make sure I had time to work on my Python project.
@@ -708,7 +708,7 @@ My main learnings from the today's CSS work was the use of the calc() function:
     height: calc(100vh - 96.24px); /* full page - (content + margins + borders) */
 Using this method and a bit of maths to calculate the remaining space of a page I wish to place inside a container, it gives me a template to work around and carefully sort out all the containers contained inside this container.
 
-I finished up with re-visiting the basics of the flask Framework, understanding nested functions, and utilsing the @ symbol to utilise the Python Decorator function.  
+I finished up with re-visiting the basics of the flask Framework, understanding nested functions, and utilising the @ symbol to utilise the Python Decorator function.  
 I intend to follow-up with the relevant exercise in the Udemy course next time I'm looking at this.
 
 ------------
@@ -767,7 +767,7 @@ Finally, ended the day with a few exercises in CodeWars and ranked up: 7kyu (41)
 --- Day 57 ---  
 2024-12-15
 
-Today I wanted a break from Javascript, so did a little session on Python.
+Today I wanted a break from Javascript, so I did a little session on Python.
 
 I continued with learning about the Flask module, and started understanding how to populate a basic local server with   
 HTML elements, on multiple pages via the @app.route method.
@@ -869,7 +869,7 @@ And, of course as I'm also studying Javascript it would be remiss to not also kn
     `You called ${function.name}`  
   
 I ended my day with a quick pomodoro on my Codecademy module: Javascript Syntax Part 1: 48%.  
-This involved some practice with arrow function notation (arrow replaces function), and conscise arrow notation (single line, no return, no curly braces, parenthesis on no arguments or two or more).
+This involved some practice with arrow function notation (arrow replaces function), and concise arrow notation (single line, no return, no curly braces, parenthesis on no arguments or two or more).
     
 ------------
 
@@ -882,7 +882,7 @@ My main issue was trying to work out what syntax I had to utilise in order to al
 
     @app.route("/<int:user_guess>")
 
-My second hurdle encountered when trying to inject multiple style options inside the html content, and realised seperation between styling required semicolons.
+My second hurdle encountered when trying to inject multiple style options inside the html content, and realised separation between styling required semicolons.
 
 I finished off my day by completing a couple of sections in my current Codecademy module: Javascript Syntax Part 1: 54%.
 I got good practice defining functions with the arrow:
@@ -895,9 +895,9 @@ I got good practice defining functions with the arrow:
 --- Day 64 ---  
 2024-12-27
 
-After a lovely, much needed Christmas break (I did actually spend some on the evening on Xmas day drafting out my initial planning documents for my new personal project (codename CoCo)), I'm back on the coding bandwagon.  
+After a lovely, much needed Christmas break (I did actually spend some of the evening on Xmas day drafting out my initial planning documents for my new personal project (codename CoCo)), I'm back on the coding bandwagon.  
 
-Today was a research into data analysis modules, utilising Python. I got gifted a copy of _"50 Days of Data Analysis with Python"_ paperback, and spent most of today reading through all the fundamentals.  
+Today was a research into data analysis modules, utilising Python. I was gifted a copy of _"50 Days of Data Analysis with Python"_ paperback, and spent most of today reading through all the fundamentals.  
 I then finished up by writing up a list of tasks, and data analysis types I wanted to practice or utilise for my own future projects (Heatmaps, Piecharts, Box Plots, Line Graphs utilising Numpy, Pandas, Matplotlib & Seaborn).  
 
 ------------  
@@ -927,11 +927,11 @@ At first I was attaching them to the parent element, which meant any styling was
 --- Day 66 ---  
 2024-12-29
 
-Today was an interesting one, I did not even write a single line of code - as I was planning my first personal project!  
+Today was an interesting one, I didn't even write a single line of code - as I was planning my first personal project!  
 
 Thanks to a little bit of time on Christmas day, I had hand-written a brief regarding what problem I'm trying to solve, with a rough but very much disney idealised brainstorm of what my project should and could contain.  
 
-Today I focused on creating my first MVP, utilising Excalidraw for the first time. It ended up creeping into what I believe to be two milestones, so I ended up highlighting what would be appropriate for MS1 and then for my second interation, MS2.  
+Today I focused on creating my first MVP, utilising Excalidraw for the first time. It ended up creeping into what I believe to be two milestones, so I ended up highlighting what would be appropriate for MS1 and then for my second iteration, MS2.  
 
 I then spent some time figuring out what my main page is going to look like for the user, and took some screen captures of different elements and windows inside a couple of my favourite Digital Audio Workstations(DAWs); Reaper and Cubase 10 Pro.  
 This included but wasn't limited to, their main pages when you open a music project (typically a hybrid of a mixing view, track selection with plugin effects, and timings and bars across the top), chord pad windows, LUFS meter, track list, EQ window etc.  
@@ -990,7 +990,7 @@ I finished up the day by learning how to commit in Github by linking an issue to
 I didn't have the best night's rest, so I started today with a pomodoro session practicing my javascript using a Codecademy module: Javascript Syntax Part 1: 64%  
 
 After that, I started to work on populating a small scale instrument data set for my personal project, using google sheets.  
-I was surprised how much information was tricky to colate, and I also had to mathmatically convert note names to MIDI numbers...  
+I was surprised how much information was tricky to collate, and I also had to mathematically convert note names to MIDI numbers...  
 until I realised I could create a reference table in a separate sheet, and utilise the vlookup formula to populate those numeral conversions for me:
 
      =VLOOKUP(H3, NoteMIDIconversion!$A$2:$B$129, 2, FALSE)
@@ -1003,7 +1003,7 @@ of key value pairings), so I decided to nest my note range typings using that sh
 --- Day 70 ---  
 2025-01-03
 
-Today I contined with my personal project.  
+Today I continued with my personal project.  
 
 I started with creating a main js file, to import my dataset to and to add an id element to each entry.  I then linked each file to make sure they could communicate with one another, and to ensure when running the html file on a live server, it's able to log all of the data entries.  
 
@@ -1036,7 +1036,7 @@ I started my day with a section of Javascript fundamentals inside Codecademy, mo
    
  Javascript Syntax Part 1: 70%  
 
-I then spent the day focused on my personal project - populated an container with instruments inside a separate div box element, and made them all draggable.  Implementing a drag feature was new to me, and I did have some teething issues upon implmentation.  
+I then spent the day focused on my personal project - populated a container with instruments inside a separate div box element, and made them all draggable.  Implementing a drag feature was new to me, and I did have some teething issues upon implementation.  
 The largest one being finding a solution for allowing my draggable elements to populate appropriately upon the web page initially loading: the position absolute attribute causes a strange stacking effect for all divs inside the same container.  
 Until I realised I could edit the style element inside javascript, therefore upon initially loading the page the box divs would be set to position: relative until I executed the following DOM line inside the draggable event;
 
@@ -1066,7 +1066,7 @@ I tried grabbing positions and then using them to update the box upon mouse up, 
     dragElement.style.left = ogXPos + 'px';
     dragElement.style.right = ogYPos + 'px';
 
-Evntually, I settled with using the cloning method. However, in my solution this still only allows the draggable process to occur on each instrument box once, but at least 'returns' (is replaced) to the original position:
+Eventually, I settled with using the cloning method. However, in my solution this still only allows the draggable process to occur on each instrument box once, but at least 'returns' (is replaced) to the original position:
      
     //with supporting code for every populated element
     let dragElementClone = dragElement.cloneNode(true);
@@ -1120,7 +1120,7 @@ Once we were able to populate our database (served with Render) we planned our A
 --- Day 77 ---  
 2025-01-10  
 
-Today was finishing up our hackathon, and presentation day!  
+Today, was our team finishing up our hackathon, and presentation day!  
 
 We managed to write successful RESTful Get (SELECT) and Post (INSERT INTO) API requests, with the appropriate status code responses for each table typing.  
 After the day, I spent the evening finishing up the post day tasks; ready for the weekend prep work, and hopefully more work on my own project.  
@@ -1146,7 +1146,7 @@ I then finished off my day with a pomodoro in the Javascript Syntax I unit insid
 
 I started off my day with a pomodoro to finally complete the Javascript Syntax I unit inside Codecademy (despite the website not tracking it correctly today!).  
 
-I've not been feling very well today, so writing code for my personal project was a bit of a struggle. I did manage to add the appropriate EventListener to remove a highlighted InputField div onmouseleave.  
+I've not been feeling very well today, so writing code for my personal project was a bit of a struggle. I did manage to add the appropriate EventListener to remove a highlighted InputField div onmouseleave.  
 As I made PH static html input fields, I struggled to track their input values, once the draggable item had been dropped. My temp solution for now, was to push that value from inside the functionality during the drop event, into an array accessible in global scope.  
 The issue with this solution is that the data will likey not match up visually if the user drops the instrument selection out of the sequence order (from top to bottom).  
 
@@ -1155,10 +1155,10 @@ The issue with this solution is that the data will likey not match up visually i
 --- Day 80 ---  
 2025-01-13 
 
-I really did not feel well today.  But after a morning resting, I got back to the learning to catch-up on what I missed on at bootcamp - learning to use Vitest.  
+I really did not feel well today.  But after a morning of resting, I got back to the learning; to catch-up on what I missed at bootcamp - learning to use Vitest.  
 
 Using this repo as an introduction: https://github.com/SchoolOfCode/week-6-unit-testing-introduction-mac-10/tree/hw, I learnt how to setup execute unit tests, including when to check for errors ie when an invalid input is utilised.  
-I also learnt the differents between the main two Test Runners (Jest and Vitest).  
+I also learnt the difference between the main two Test Runners (Jest and Vitest).  
 
 ------------ 
 
@@ -1176,10 +1176,10 @@ After the day at bootcamp, the prep work task focused on the 3 different types o
 
 Today I took a bit of a downslide slide, and it's my long day at bootcamp, so I just had to pace myself.  
 
-Today we learnt a new tool: Playwright.  At first glance, it reminded me a module I've worked with in Python earlier - Selenium. However, oh boy the power of this module though!  
+Today we learnt a new tool: Playwright.  At first glance, it reminded me of a module I've worked with in Python earlier - Selenium. However, oh boy the power of this module though!  
 One very welcome addition from the get go is the built-in auto wait and auto retry, and the Trace Viewer to scrub through the actions automated by the test.  
 
-So we spent the afternoon working through a lenghty workshop, and almost completed it.  We must have done well on it as we got called up to demonstrate our findings on the later tasks at the end of the day.  
+So we spent the afternoon working through a lengthy workshop, and almost completed it.  We must have done well on it as we got called up to demonstrate our findings on the later tasks at the end of the day.  
 
 ------------ 
 
@@ -1198,7 +1198,7 @@ This is also the first project where I had to create my first custom markdown wh
 
 Still feeling drained, but managed to get through the presentation today for the Hackathon mind!  
 
-I wrapped up the day by looking into an API testing exercise with vitest, and learnt how to use expect to check whether content is being recieved in the appropriate type (ie array or object).  
+I wrapped up the day by looking into an API testing exercise with vitest, and learnt how to use expect to check whether content is being received in the appropriate type (ie array or object).  
 
 ------------ 
 
@@ -1237,7 +1237,7 @@ I almost completed two workshops around react: First one, more focused on the or
 --- Day 88 ---  
 2025-01-21
 
-Today was another lecture and documentation heavy discussion on React! I spent time with my team mates checking each other's understanding of many different concepts, including:  
+Today was another lecture and documentation heavy discussion on React! I spent time with my teammates checking each other's understanding of many different concepts, including:  
 Writing markup with JSX , conditional rendering , rendering lists, responding to events and updating the screen. Followed by prep work that included the introduction to Hooks, and how to apply functions or anonymous function calls inside the setState method.  
 
 I finished up the day by updating my README file inside the "Product preview card component" project, and realised I had forgotten to supply the active states, so committed those changes as well. 
@@ -1389,8 +1389,8 @@ and I'm also proud of aiding with this particular solution:
 --- Day 95 ---  
 2025-01-28
 
-Today at bootcamp we were tasked with a workshop that gave us the opportunity to investigate documentation and applying our findings in order to create test cases in react with the react-testing library with vitest.  
-Most documentation avilable is for the similar alternative testing package, jest, so we had to established the nuances between the two.  
+Today at bootcamp we were tasked with a workshop that gave us the opportunity to investigate documentation and apply our findings in order to create test cases in react with the react-testing library with vitest.  
+Most documentation avilable is for the similar alternative testing package, jest, so we had to establish the nuances between the two.  
 
 Our team were then tasked to investigate nested CSS, and the differences between native nested CSS and SASS - for our presentation tomorrow morning. 
   
@@ -1403,7 +1403,7 @@ I wrapped up the evening by forking our hackathon on Friday for my React practic
 2025-01-29
 
 Today we presented our presentation on native CSS & SASS nesting.  We also were introduced to the storybook frontend UI workshop library, which weaved nicely after a talk that was focused on user-centred design.  
-We finished off the session with an investigation researching into useReducer, and when to utilise it over useState hooks.  
+We finished off the session with an investigation researching useReducer, and when to utilise it over useState hooks.  
 
 After prep, I finished the day off with continuing React practice; by obtaining initial functionality with form submission (currently, data is stored in a variable and output is printed to the console).  
 My next focus on this, is to refactor the code, and move some data and states up the component tree to allow full functioning form capabilities.  
@@ -1434,7 +1434,7 @@ trimmed down the SFX at the first hoot ending phrase, and a gentle fade out on t
 
 After finishing up the module from the bootcamp for this week, I wanted to take it easy after another intense week of React.  
 
-I decided to branch off on our hackathon project, to fix a screen sizing issue that was occuring on one of my team mates monitor.  With more freedom on the jsx files, I was able to manage the container layout, and centre everything appropriately, to give  
+I decided to branch off on our hackathon project, to fix a screen sizing issue that was occurring on one of my teammates' monitor.  With more freedom on the jsx files, I was able to manage the container layout, and centre everything appropriately, to give  
 the header more space to move down (as it was clipping off on their screen). This should fix the issue, but it also made me realise I could add a media query so if the height was below a certain sizing on the viewport, it would disappear, giving the rest of our app  
 more breathing space.  
 
