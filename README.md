@@ -1451,6 +1451,7 @@ with an unmerged branch. So I had to clone this forked repo, checkout the branch
 Same feeling as yesterday, I'm still winding down from a couple of intense weeks, so using today as a chill winding down coding session.  
 
 I wanted to take the content of my CV (which I've been gradually updating in draft form) and transfer it to a fresh, modern template; therefore I've opened a repo and decided to design my own template.  
+  
 Revisiting my basic CSS skills, I managed to create a stylised header, and filled the basic wireframe for each section so far.  
 
 ------------ 
