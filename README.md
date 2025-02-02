@@ -1257,7 +1257,7 @@ We made sure we spent enough time planning, before we initialised our project, e
 2025-01-23
 
 Hackathon! We spent today getting our planning, initial React project initialised, and the static wireframe up and running.  
-We then spent an unhealthy amount of time trying to get the card flip working, so we had to go ahead and do some research before reconvening our findings and overall solution.  
+We then spent an unhealthy amount of time trying to get the card re-render 'flip' working, so we had to go ahead and do some research before reconvening our findings and overall solution.  
 
 ------------ 
 
@@ -1413,14 +1413,19 @@ My next focus on this, is to refactor the code, and move some data and states up
 --- Day 97 ---  
 2025-01-30
 
-Hackathon today! Will update tomorrow.
+Hackathon today! We had flexibility to create anything in React, so we settled for something Owl themed (due to our team name) and decided on an Owl Quiz; where the question is an image, with a set of multiple choice answers.  
+The incorrect answers would still be generated from the answer array, but excluding the correct answer text for the matching image.  Once a question was answered, the image and the buttons would be re-rendered to view a new image and multiple choice selection.  
 
 ------------ 
 
 --- Day 98 ---  
 2025-01-31
 
-Hackathon Presentation today! Will update later!
+Hackathon Presentation today! 
+
+We focused on small updates to our app as time is short in the morning.  We added a running score, and very basic Playwright testing (as we realised, due to the random nature of our image and button functionality, there would be additional logic to create a useful test  
+that we just did not have ample time to explore with).  We also added a owl hooting SFX to trigger when the user selected the correct bird.  However, the original SFX itself was too long, and clipped at the end of the track - so I put my audio editing skills to use;  
+trimmed down the SFX at the first hoot ending phrase, and a gentle fade out on the tail for clarity, and replaced the og file for our new edited version, and pushed up within the space of 5 mins.  
 
 ------------ 
 
@@ -1438,4 +1443,5 @@ with an unmerged branch. So I had to clone this forked repo, checkout the branch
 
 ------------ 
 
------------- 
+--- Day 100 ---  
+2025-02-02
